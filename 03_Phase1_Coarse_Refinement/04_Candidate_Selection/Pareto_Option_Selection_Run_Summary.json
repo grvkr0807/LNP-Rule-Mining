@@ -1,0 +1,20 @@
+{
+  "schema_version": 4,
+  "pareto_candidates_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Pareto_Candidates.json",
+  "output_dir": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs",
+  "base_dir": "<PROJECT_ROOT>",
+  "phase1_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement",
+  "selected_cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "stage": "all",
+  "n_cases_processed": 5,
+  "elapsed_seconds": 715.7633140087128,
+  "validation_split_loaded": false,
+  "shap_calculations_performed": false,
+  "hyperparameter_tuning_performed": false
+}

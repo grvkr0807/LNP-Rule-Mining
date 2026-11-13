@@ -1,0 +1,5 @@
+parameter_values,run_folder,iteration,selected_feature_file,n_features,is_strict_reference
+"(0.90, 0.50)",KMeans_Stratified_LightGBM_SHAP_90_50,5,<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_90_50/Iteration_5/Selected_Features_After_Iteration_5.csv,151,False
+"(0.75, 0.50)",KMeans_Stratified_LightGBM_SHAP_75_50,5,<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_50/Iteration_5/Selected_Features_After_Iteration_5.csv,132,False
+"(0.90, 0.25)",KMeans_Stratified_LightGBM_SHAP_90_25,5,<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_90_25/Iteration_5/Selected_Features_After_Iteration_5.csv,92,False
+"(0.75, 0.25)",KMeans_Stratified_LightGBM_SHAP_75_25,5,<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_25/Iteration_5/Selected_Features_After_Iteration_5.csv,77,True

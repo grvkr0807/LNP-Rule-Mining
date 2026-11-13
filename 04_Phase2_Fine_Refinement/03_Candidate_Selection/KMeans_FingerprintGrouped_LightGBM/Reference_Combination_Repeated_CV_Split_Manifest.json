@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "cv_strategy": "FingerprintClusterGroupedKFold",
+  "master_random_state": 42,
+  "repeat_seeds": [
+    42,
+    1608637542,
+    1273642419,
+    1935803228,
+    787846414,
+    996406378,
+    1201263687,
+    423734972,
+    415968276,
+    670094950
+  ],
+  "n_splits": 5,
+  "n_repeats": 10,
+  "n_development_rows": 10391,
+  "n_unique_repeat_split_signatures": 10,
+  "repeat_split_signatures": [
+    "066a250a49fc17f5e5da1b0bff0aa1dd26198d5ae08ee4d32ce105fc9339d2ea",
+    "228dc3f1ffa4843992f7987a57ae1c9dd40a9f5e0dd6eaa56a244124ec0579fc",
+    "80cabb49dc8105d59c355da7d6389b1953b53b841b2ab91e45103ac9fdadabda",
+    "a76c70ae484321cc0555525c99e5397bce1186b2142f379c3846409c4da7c6d0",
+    "a9538da58bef6badf68bde9265764c5ec9870b256135224acc90971929e0c51d",
+    "2fcde5361c3cc619d96bf363e604f41b7102f979ceea4f30c4f401423eb0322c",
+    "7fe984c6ffef835c80f596256e5c1337e5064f3d89439f5474b0dbf0b9494c43",
+    "d93573891564d81da1eda8c1edddc6000de75f55388d2c379af83aa911040ef1",
+    "ccd1374ce1f7636402ef94a922204f9cc3cf955ff57fcd2d36f2a58418a56508",
+    "7c5a53f14a60da4c73041c772c6a1502879fa92569ac46b51f863287c2879925"
+  ],
+  "grouped_case": true
+}

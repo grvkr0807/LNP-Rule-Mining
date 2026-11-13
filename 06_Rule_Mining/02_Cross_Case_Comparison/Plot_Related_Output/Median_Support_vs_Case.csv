@@ -1,0 +1,6 @@
+case_name,case_label,median_support
+KMeans_Stratified_LightGBM,Case 1,92.0
+HC10_Stratified_LightGBM,Case 2,87.0
+HC20_Stratified_LightGBM,Case 3,85.0
+KMeans_FingerprintGrouped_LightGBM,Case 4,93.0
+KMeans_Stratified_RF,Case 5,98.0

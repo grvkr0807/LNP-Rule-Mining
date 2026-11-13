@@ -1,0 +1,9 @@
+{
+  "test_case": "KMeans_Stratified_LightGBM",
+  "start_iteration": 1,
+  "end_iteration": 5,
+  "n_features_after_final_iteration": 77,
+  "segment_elapsed_seconds": 1160.604318857193,
+  "hyperparameter_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_KMeans_hyperparameter.xlsx",
+  "next_required_action": "Retune hyperparameters using features retained after Iteration 5 before starting Iteration 6."
+}

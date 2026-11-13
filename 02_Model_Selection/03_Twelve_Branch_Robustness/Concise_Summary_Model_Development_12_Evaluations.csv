@@ -1,0 +1,13 @@
+Label,CV strategy,Model,Accuracy,Balanced accuracy,Macro-F1,Weighted F1,AUROC,AUPRC
+Standard k-means,Stratified CV,LightGBM,0.7826,0.7884,0.781,0.7839,0.8704,0.822
+Standard k-means,Stratified CV,Class-weighted RF,0.7828,0.7836,0.7798,0.7838,0.8726,0.8279
+Standard k-means,Fingerprint-grouped CV,LightGBM,0.6301,0.6292,0.6111,0.6284,0.6963,0.5819
+Standard k-means,Fingerprint-grouped CV,Class-weighted RF,0.6701,0.6674,0.6518,0.6696,0.7316,0.6251
+HC10,Stratified CV,LightGBM,0.7962,0.8031,0.794,0.7977,0.8868,0.8414
+HC10,Stratified CV,Class-weighted RF,0.8112,0.812,0.8075,0.8122,0.8985,0.8569
+HC10,Fingerprint-grouped CV,LightGBM,0.6497,0.6523,0.6427,0.6497,0.7192,0.614
+HC10,Fingerprint-grouped CV,Class-weighted RF,0.6492,0.6558,0.6405,0.6466,0.7223,0.6217
+HC20,Stratified CV,LightGBM,0.8426,0.8365,0.8364,0.8425,0.9234,0.887
+HC20,Stratified CV,Class-weighted RF,0.8334,0.8326,0.8287,0.8342,0.9185,0.8797
+HC20,Fingerprint-grouped CV,LightGBM,0.6814,0.6737,0.6646,0.6811,0.7484,0.6334
+HC20,Fingerprint-grouped CV,Class-weighted RF,0.6634,0.6669,0.6507,0.6645,0.7487,0.6553

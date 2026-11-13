@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-08-30T03:08:57+00:00",
+  "analysis": "Phase 2 cross-case selected feature-class architecture analysis",
+  "phase2_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement",
+  "candidate_selection_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs",
+  "analysis_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Fine_Refinement_Analysis",
+  "requested_cases": null,
+  "analyzed_cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "analyzed_case_labels": [
+    "Case 1",
+    "Case 2",
+    "Case 3",
+    "Case 4",
+    "Case 5"
+  ],
+  "skipped_cases": [],
+  "n_cases_analyzed": 5,
+  "core_retention_definition": "|A intersection B| / min(|A|, |B|)",
+  "new_model_fits_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "shap_calculations_performed": false,
+  "validation_split_loaded": false
+}

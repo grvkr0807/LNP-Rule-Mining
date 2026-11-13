@@ -1,0 +1,15 @@
+feature_index,feature_id,feature_name,condition_kind,n_unique_observed_values,requested_n_bins,effective_n_conditions,collapsed_requested_quantile_edges,observed_min,observed_max
+0,F01,hl_molratio,continuous_bin,1238,6,5,1,0.0,42.54413157
+1,F02,il_to_mrna_massratio,continuous_bin,505,6,3,3,4.476173377,44.58368421
+2,F03,peg_molratio,continuous_bin,1232,6,4,2,0.0,7.3
+3,F04,BCUT2D_CHGHI_il,continuous_bin,5243,6,6,0,2.0057053270542884,2.545113938103239
+4,F05,SMR_VSA6_il,continuous_bin,201,6,6,0,0.0,295.8881470070288
+5,F06,MaxPartialCharge_il,continuous_bin,733,6,6,0,0.0666690910824399,0.5725963173324546
+6,F07,SlogP_VSA2_il,continuous_bin,434,6,6,0,15.937262329846266,387.11944938585276
+7,F08,BCUT2D_CHGLO_il,continuous_bin,5243,6,6,0,-2.6036675460894347,-2.022330772526595
+8,F09,SMR_VSA3_il,continuous_bin,38,6,6,0,0.0,34.29936811595334
+9,F10,PEOE_VSA1_il,continuous_bin,177,6,6,0,4.736862953800049,104.86317209180285
+10,F11,fr_unbrch_alkane_il,continuous_bin,86,6,6,0,0.0,144.0
+11,F12,BCUT2D_LOGPLOW_il,continuous_bin,5243,6,6,0,-2.7412267032895867,-2.046931326384581
+12,F13,BCUT2D_CHGLO_hl,continuous_bin,8,6,4,2,-2.2958215817154106,0.0
+13,F14,MolLogP_il,continuous_bin,4006,6,6,0,-0.4621999999999933,77.15859999999999

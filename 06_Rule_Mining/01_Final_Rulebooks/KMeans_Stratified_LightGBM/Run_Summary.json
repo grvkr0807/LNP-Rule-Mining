@@ -1,0 +1,127 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_utc": "2026-08-14T04:33:32.026097+00:00",
+  "completed_utc": "2026-08-14T04:33:37.450866+00:00",
+  "elapsed_seconds": 5.424769,
+  "case_name": "KMeans_Stratified_LightGBM",
+  "label_name": "KMeans",
+  "target_column": "kmeans_2bins",
+  "data_split": "development",
+  "validation_partition_loaded": false,
+  "n_rows": 10391,
+  "n_positive": 4387,
+  "baseline_positive_prevalence": 0.4221922817823116,
+  "n_selected_features": 15,
+  "selected_feature_names": [
+    "hl_molratio",
+    "cargo_mRNA",
+    "MaxPartialCharge_il",
+    "peg_molratio",
+    "il_to_mrna_massratio",
+    "SlogP_VSA2_il",
+    "FpDensityMorgan1_hl",
+    "BCUT2D_CHGHI_il",
+    "BCUT2D_CHGLO_il",
+    "BCUT2D_LOGPLOW_il",
+    "qed_il",
+    "SlogP_VSA1_il",
+    "MinAbsPartialCharge_il",
+    "FpDensityMorgan1_il",
+    "MinPartialCharge_il"
+  ],
+  "selected_feature_hash": "704ed032faf45971d4869320c029b6993f327611bb94334790412de6ee51ca9f",
+  "requested_n_bins": 6,
+  "min_support": 50,
+  "min_precision": 0.65,
+  "lambda_order": 0.5,
+  "max_rule_order": 4,
+  "wilson_z": 1.96,
+  "wilson_interpretation": "two-sided 95% Wilson lower endpoint; require p_low >= global prevalence",
+  "lift_used_as_filter": false,
+  "delta_uplift": 0.0,
+  "min_sets_appearing_used": false,
+  "top_n_rulebook_truncation_used": false,
+  "extra_superset_improvement_margin_used": false,
+  "positive_utility_required": true,
+  "ranking_order": [
+    "U_low desc",
+    "EP_low desc",
+    "p_low desc",
+    "support desc",
+    "canonical_rule_key asc"
+  ],
+  "n_eligible_rules_prepruning": 12354,
+  "n_after_exact_coverage_deduplication": 4339,
+  "n_retained_rules": 1025,
+  "n_exact_coverage_rules_pruned": 8015,
+  "n_nonimproving_supersets_pruned": 3314,
+  "coverage": {
+    "n_formulations": 10391,
+    "n_positive_formulations": 4387,
+    "n_formulations_covered": 7541,
+    "overall_formulation_coverage": 0.7257241843903378,
+    "n_positive_formulations_covered": 3868,
+    "positive_class_coverage": 0.8816959197629359
+  },
+  "mining_audit": {
+    "n_rows": 10391,
+    "n_positive": 4387,
+    "baseline_positive_prevalence": 0.4221922817823116,
+    "max_rule_order": 4,
+    "min_support": 50,
+    "min_precision": 0.65,
+    "lambda_order": 0.5,
+    "wilson_z": 1.96,
+    "stage_totals": {
+      "enumerated": 885939,
+      "support_pass": 90892,
+      "precision_pass": 12354,
+      "wilson_pass": 12354,
+      "positive_utility_pass": 12354
+    },
+    "stage_by_order": [
+      {
+        "order": 1,
+        "enumerated": 75,
+        "support_pass": 75,
+        "precision_pass": 1,
+        "wilson_pass": 1,
+        "positive_utility_pass": 1
+      },
+      {
+        "order": 2,
+        "enumerated": 2612,
+        "support_pass": 2158,
+        "precision_pass": 117,
+        "wilson_pass": 117,
+        "positive_utility_pass": 117
+      },
+      {
+        "order": 3,
+        "enumerated": 56020,
+        "support_pass": 19027,
+        "precision_pass": 2178,
+        "wilson_pass": 2178,
+        "positive_utility_pass": 2178
+      },
+      {
+        "order": 4,
+        "enumerated": 827232,
+        "support_pass": 69632,
+        "precision_pass": 10058,
+        "wilson_pass": 10058,
+        "positive_utility_pass": 10058
+      }
+    ]
+  },
+  "config_hash": "b44c85c1c3d95d05a32a23fe3c8a27f58550c2fa8eaa9d66f0255e87e6304e21",
+  "inputs": {
+    "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+    "development_feature_file_sha256": "2715abfb3cec4e48681ec5582c6b56f541b78142a80c204d7d677b733a9fb39e",
+    "development_target_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+    "development_target_file_sha256": "e5547e3efaa171bccc93b19a31e8cc4886b707609fa77aed495086d6357842e5",
+    "recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/3_Candidate_Selection/Outputs/Recommended_Final_Feature_Sets.csv",
+    "recommendations_file_sha256": "4c1ac5d073660aee29093b7a0dd435f67cc6413320200a173171afa19a4688ae"
+  }
+}

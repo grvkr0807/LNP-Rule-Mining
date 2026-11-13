@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "analysis": "Phase 3 input-pool construction",
+  "reference_n_features": 12,
+  "compression_applied": false,
+  "locked_phase3_pool_n_features": 12,
+  "selection_rule": "All finalized Phase 2 features retained because the 12-feature pool was already tractable for exhaustive subset evaluation.",
+  "validation_partition_loaded": false,
+  "feature_file": "Phase2_Features_Retained_Without_Compression.csv"
+}

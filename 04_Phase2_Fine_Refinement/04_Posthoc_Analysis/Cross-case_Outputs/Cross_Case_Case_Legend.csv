@@ -1,0 +1,6 @@
+case_name,case_label,selected_combination_id,selected_n_classes,selected_n_features,selected_class_ids,selected_class_names
+KMeans_Stratified_LightGBM,Case 1,Kept_Classes_C03_C05_C07_C10_C11_C12,6,31,C03;C05;C07;C10;C11;C12,Elements and Functional Groups | Lipophilicity | Electrostatics | Composite/Fingerprint | Composition | Experimental Context
+HC10_Stratified_LightGBM,Case 2,Kept_Classes_C01_C02_C03_C04_C05_C06_C07_C10_C11_C12,10,41,C01;C02;C03;C04;C05;C06;C07;C10;C11;C12,Size and Shape | Topology | Elements and Functional Groups | Polarity | Lipophilicity | Molar Refractivity | Electrostatics | Composite/Fingerprint | Composition | Experimental Context
+HC20_Stratified_LightGBM,Case 3,Kept_Classes_C03_C05_C06_C07_C10_C11_C12,7,42,C03;C05;C06;C07;C10;C11;C12,Elements and Functional Groups | Lipophilicity | Molar Refractivity | Electrostatics | Composite/Fingerprint | Composition | Experimental Context
+KMeans_FingerprintGrouped_LightGBM,Case 4,Kept_Classes_C01_C03_C06_C12,4,12,C01;C03;C06;C12,Size and Shape | Elements and Functional Groups | Molar Refractivity | Experimental Context
+KMeans_Stratified_RF,Case 5,Kept_Classes_C02_C04_C05_C06_C07_C10_C11,7,26,C02;C04;C05;C06;C07;C10;C11,Topology | Polarity | Lipophilicity | Molar Refractivity | Electrostatics | Composite/Fingerprint | Composition

@@ -1,0 +1,6 @@
+case_name,case_label,n_retained_rules
+KMeans_Stratified_LightGBM,Case 1,1025
+HC10_Stratified_LightGBM,Case 2,1479
+HC20_Stratified_LightGBM,Case 3,1099
+KMeans_FingerprintGrouped_LightGBM,Case 4,187
+KMeans_Stratified_RF,Case 5,733

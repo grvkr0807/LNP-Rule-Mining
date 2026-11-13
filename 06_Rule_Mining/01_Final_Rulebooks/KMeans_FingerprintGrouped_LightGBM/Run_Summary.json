@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_utc": "2026-08-14T04:33:47.935150+00:00",
+  "completed_utc": "2026-08-14T04:33:48.685328+00:00",
+  "elapsed_seconds": 0.750178,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "label_name": "KMeans",
+  "target_column": "kmeans_2bins",
+  "data_split": "development",
+  "validation_partition_loaded": false,
+  "n_rows": 10391,
+  "n_positive": 4387,
+  "baseline_positive_prevalence": 0.4221922817823116,
+  "n_selected_features": 7,
+  "selected_feature_names": [
+    "SPS_il",
+    "BCUT2D_MWLOW_il",
+    "BCUT2D_MRLOW_il",
+    "Kappa3_il",
+    "SMR_VSA3_il",
+    "SMR_VSA6_il",
+    "FractionCSP3_il"
+  ],
+  "selected_feature_hash": "767e0c8a59b41bf4c9ccfd5c728caff3ca3b26db910d804f64632c825ad596b2",
+  "requested_n_bins": 6,
+  "min_support": 50,
+  "min_precision": 0.65,
+  "lambda_order": 0.5,
+  "max_rule_order": 4,
+  "wilson_z": 1.96,
+  "wilson_interpretation": "two-sided 95% Wilson lower endpoint; require p_low >= global prevalence",
+  "lift_used_as_filter": false,
+  "delta_uplift": 0.0,
+  "min_sets_appearing_used": false,
+  "top_n_rulebook_truncation_used": false,
+  "extra_superset_improvement_margin_used": false,
+  "positive_utility_required": true,
+  "ranking_order": [
+    "U_low desc",
+    "EP_low desc",
+    "p_low desc",
+    "support desc",
+    "canonical_rule_key asc"
+  ],
+  "n_eligible_rules_prepruning": 569,
+  "n_after_exact_coverage_deduplication": 457,
+  "n_retained_rules": 187,
+  "n_exact_coverage_rules_pruned": 112,
+  "n_nonimproving_supersets_pruned": 270,
+  "coverage": {
+    "n_formulations": 10391,
+    "n_positive_formulations": 4387,
+    "n_formulations_covered": 5442,
+    "overall_formulation_coverage": 0.5237224521220287,
+    "n_positive_formulations_covered": 3190,
+    "positive_class_coverage": 0.7271483929792569
+  },
+  "mining_audit": {
+    "n_rows": 10391,
+    "n_positive": 4387,
+    "baseline_positive_prevalence": 0.4221922817823116,
+    "max_rule_order": 4,
+    "min_support": 50,
+    "min_precision": 0.65,
+    "lambda_order": 0.5,
+    "wilson_z": 1.96,
+    "stage_totals": {
+      "enumerated": 53718,
+      "support_pass": 4495,
+      "precision_pass": 569,
+      "wilson_pass": 569,
+      "positive_utility_pass": 569
+    },
+    "stage_by_order": [
+      {
+        "order": 1,
+        "enumerated": 42,
+        "support_pass": 42,
+        "precision_pass": 0,
+        "wilson_pass": 0,
+        "positive_utility_pass": 0
+      },
+      {
+        "order": 2,
+        "enumerated": 756,
+        "support_pass": 696,
+        "precision_pass": 26,
+        "wilson_pass": 26,
+        "positive_utility_pass": 26
+      },
+      {
+        "order": 3,
+        "enumerated": 7560,
+        "support_pass": 2163,
+        "precision_pass": 249,
+        "wilson_pass": 249,
+        "positive_utility_pass": 249
+      },
+      {
+        "order": 4,
+        "enumerated": 45360,
+        "support_pass": 1594,
+        "precision_pass": 294,
+        "wilson_pass": 294,
+        "positive_utility_pass": 294
+      }
+    ]
+  },
+  "config_hash": "f1c3238a1f466e0875647975b3b07cd4f57d1898416f786632c54ce86652f824",
+  "inputs": {
+    "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+    "development_feature_file_sha256": "2715abfb3cec4e48681ec5582c6b56f541b78142a80c204d7d677b733a9fb39e",
+    "development_target_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+    "development_target_file_sha256": "e5547e3efaa171bccc93b19a31e8cc4886b707609fa77aed495086d6357842e5",
+    "recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/3_Candidate_Selection/Outputs/Recommended_Final_Feature_Sets.csv",
+    "recommendations_file_sha256": "4c1ac5d073660aee29093b7a0dd435f67cc6413320200a173171afa19a4688ae"
+  }
+}

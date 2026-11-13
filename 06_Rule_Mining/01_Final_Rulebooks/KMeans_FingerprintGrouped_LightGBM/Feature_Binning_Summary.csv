@@ -1,0 +1,8 @@
+feature_index,feature_id,feature_name,condition_kind,n_unique_observed_values,requested_n_bins,effective_n_conditions,collapsed_requested_quantile_edges,observed_min,observed_max
+0,F01,SPS_il,continuous_bin,2979,6,6,0,10.142857142857142,28.5
+1,F02,BCUT2D_MWLOW_il,continuous_bin,6082,6,6,0,9.492896550261346,10.36615614138479
+2,F03,BCUT2D_MRLOW_il,continuous_bin,6073,6,6,0,-0.9285610244885404,0.08352727943819406
+3,F04,Kappa3_il,continuous_bin,3853,6,6,0,5.534016093036588,216.34080694486266
+4,F05,SMR_VSA3_il,continuous_bin,39,6,6,0,0.0,34.29936811595334
+5,F06,SMR_VSA6_il,continuous_bin,203,6,6,0,0.0,295.8881470070288
+6,F07,FractionCSP3_il,continuous_bin,509,6,6,0,0.48,1.0

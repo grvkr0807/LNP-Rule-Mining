@@ -1,0 +1,6 @@
+case_name,case_label,overall_formulation_coverage,positive_class_coverage
+KMeans_Stratified_LightGBM,Case 1,0.7257241843903378,0.8816959197629359
+HC10_Stratified_LightGBM,Case 2,0.7931180968564147,0.9278164475380252
+HC20_Stratified_LightGBM,Case 3,0.7879328811138879,0.9320932979037496
+KMeans_FingerprintGrouped_LightGBM,Case 4,0.5237224521220287,0.7271483929792569
+KMeans_Stratified_RF,Case 5,0.6850158791261669,0.8379302484613631

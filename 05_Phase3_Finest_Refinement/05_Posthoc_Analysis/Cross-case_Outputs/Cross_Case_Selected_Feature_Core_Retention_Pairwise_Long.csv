@@ -1,0 +1,11 @@
+case_i,case_i_label,case_i_n_features,case_j,case_j_label,case_j_n_features,n_intersection,smaller_set_size,core_retention,shared_features
+KMeans_Stratified_LightGBM,Case 1,15,HC10_Stratified_LightGBM,Case 2,15,8,15,0.5333333333333333,BCUT2D_CHGHI_il;BCUT2D_CHGLO_il;FpDensityMorgan1_il;MaxPartialCharge_il;SlogP_VSA1_il;cargo_mRNA;il_to_mrna_massratio;peg_molratio
+KMeans_Stratified_LightGBM,Case 1,15,HC20_Stratified_LightGBM,Case 3,14,8,14,0.5714285714285714,BCUT2D_CHGHI_il;BCUT2D_CHGLO_il;BCUT2D_LOGPLOW_il;MaxPartialCharge_il;SlogP_VSA2_il;hl_molratio;il_to_mrna_massratio;peg_molratio
+KMeans_Stratified_LightGBM,Case 1,15,KMeans_FingerprintGrouped_LightGBM,Case 4,7,0,7,0.0,
+KMeans_Stratified_LightGBM,Case 1,15,KMeans_Stratified_RF,Case 5,13,7,13,0.5384615384615384,BCUT2D_CHGLO_il;BCUT2D_LOGPLOW_il;MinAbsPartialCharge_il;hl_molratio;il_to_mrna_massratio;peg_molratio;qed_il
+HC10_Stratified_LightGBM,Case 2,15,HC20_Stratified_LightGBM,Case 3,14,7,14,0.5,BCUT2D_CHGHI_il;BCUT2D_CHGLO_il;MaxPartialCharge_il;SMR_VSA6_il;fr_unbrch_alkane_il;il_to_mrna_massratio;peg_molratio
+HC10_Stratified_LightGBM,Case 2,15,KMeans_FingerprintGrouped_LightGBM,Case 4,7,3,7,0.42857142857142855,BCUT2D_MWLOW_il;FractionCSP3_il;SMR_VSA6_il
+HC10_Stratified_LightGBM,Case 2,15,KMeans_Stratified_RF,Case 5,13,4,13,0.3076923076923077,BCUT2D_CHGLO_il;il_molratio;il_to_mrna_massratio;peg_molratio
+HC20_Stratified_LightGBM,Case 3,14,KMeans_FingerprintGrouped_LightGBM,Case 4,7,2,7,0.2857142857142857,SMR_VSA3_il;SMR_VSA6_il
+HC20_Stratified_LightGBM,Case 3,14,KMeans_Stratified_RF,Case 5,13,7,13,0.5384615384615384,BCUT2D_CHGLO_il;BCUT2D_LOGPLOW_il;PEOE_VSA1_il;SMR_VSA3_il;hl_molratio;il_to_mrna_massratio;peg_molratio
+KMeans_FingerprintGrouped_LightGBM,Case 4,7,KMeans_Stratified_RF,Case 5,13,1,7,0.14285714285714285,SMR_VSA3_il

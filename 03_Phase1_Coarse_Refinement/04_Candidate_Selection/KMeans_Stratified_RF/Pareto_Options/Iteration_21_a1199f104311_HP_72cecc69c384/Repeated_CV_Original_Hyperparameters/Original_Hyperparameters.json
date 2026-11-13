@@ -1,0 +1,19 @@
+{
+  "schema_version": 3,
+  "case_name": "KMeans_Stratified_RF",
+  "pareto_option_id": "Iteration_21_a1199f104311_HP_72cecc69c384",
+  "representative_iteration": 21,
+  "hyperparameter_source": "exact best_params recorded in the Phase-1 Trained_Models_Iteration_<N>.pkl bundle",
+  "original_hyperparameter_source_iteration": 21,
+  "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_RF_SHAP_75_25/Iteration_21/Trained_Models_Iteration_21.pkl",
+  "original_hyperparameter_source_file_sha256": "88e83c8ebc4f5245ea3b7b79509fb10a58fb93e4bf588e5738282ac283b747e9",
+  "hyperparameter_hash": "72cecc69c384428a1fc23972c09f7db3d223d4d73ab27f58a149943318cad426",
+  "original_hyperparameters": {
+    "n_estimators": 200,
+    "min_samples_split": 5,
+    "min_samples_leaf": 4,
+    "max_features": 0.5,
+    "max_depth": 20
+  },
+  "hyperparameter_tuning_performed": false
+}

@@ -1,0 +1,16 @@
+feature_index,feature_id,feature_name,condition_kind,n_unique_observed_values,requested_n_bins,effective_n_conditions,collapsed_requested_quantile_edges,observed_min,observed_max
+0,F01,hl_molratio,continuous_bin,1558,6,4,2,0.0,42.54413157
+1,F02,cargo_mRNA,categorical,2,6,2,0,0.0,1.0
+2,F03,MaxPartialCharge_il,continuous_bin,784,6,6,0,0.0666690910824399,0.5725963173324546
+3,F04,peg_molratio,continuous_bin,1552,6,4,2,0.0,7.3
+4,F05,il_to_mrna_massratio,continuous_bin,520,6,3,3,4.476173377,44.58368421
+5,F06,SlogP_VSA2_il,continuous_bin,440,6,6,0,15.937262329846266,387.11944938585276
+6,F07,FpDensityMorgan1_hl,continuous_bin,8,6,4,2,0.0,0.6
+7,F08,BCUT2D_CHGHI_il,continuous_bin,6091,6,6,0,2.0057053270542884,2.545113938103239
+8,F09,BCUT2D_CHGLO_il,continuous_bin,6091,6,6,0,-2.6036675460894347,-2.022330772526595
+9,F10,BCUT2D_LOGPLOW_il,continuous_bin,6091,6,6,0,-2.7412267032895867,-2.046931326384581
+10,F11,qed_il,continuous_bin,4681,6,6,0,0.014232094321240582,0.816668033351738
+11,F12,SlogP_VSA1_il,continuous_bin,34,6,4,2,0.0,36.3707662255366
+12,F13,MinAbsPartialCharge_il,continuous_bin,812,6,6,0,0.0666690910824399,0.46567500450023136
+13,F14,FpDensityMorgan1_il,continuous_bin,1319,6,6,0,0.08865248226950355,1.375
+14,F15,MinPartialCharge_il,continuous_bin,447,6,6,0,-0.7561207700177661,-0.3400830640910391

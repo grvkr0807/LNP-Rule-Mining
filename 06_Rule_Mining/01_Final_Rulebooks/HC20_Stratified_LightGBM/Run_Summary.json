@@ -1,0 +1,126 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_utc": "2026-08-14T04:33:43.417693+00:00",
+  "completed_utc": "2026-08-14T04:33:47.859864+00:00",
+  "elapsed_seconds": 4.442171,
+  "case_name": "HC20_Stratified_LightGBM",
+  "label_name": "HighConfidence_KMeans_20",
+  "target_column": "high_confidence_kmeans_2bins",
+  "data_split": "development",
+  "validation_partition_loaded": false,
+  "n_rows": 8403,
+  "n_positive": 3387,
+  "baseline_positive_prevalence": 0.40307033202427706,
+  "n_selected_features": 14,
+  "selected_feature_names": [
+    "hl_molratio",
+    "il_to_mrna_massratio",
+    "peg_molratio",
+    "BCUT2D_CHGHI_il",
+    "SMR_VSA6_il",
+    "MaxPartialCharge_il",
+    "SlogP_VSA2_il",
+    "BCUT2D_CHGLO_il",
+    "SMR_VSA3_il",
+    "PEOE_VSA1_il",
+    "fr_unbrch_alkane_il",
+    "BCUT2D_LOGPLOW_il",
+    "BCUT2D_CHGLO_hl",
+    "MolLogP_il"
+  ],
+  "selected_feature_hash": "412105d0c8f374ffef8acf32d7a5ed040252ba2955a95efe484b6c405e5dd33d",
+  "requested_n_bins": 6,
+  "min_support": 50,
+  "min_precision": 0.65,
+  "lambda_order": 0.5,
+  "max_rule_order": 4,
+  "wilson_z": 1.96,
+  "wilson_interpretation": "two-sided 95% Wilson lower endpoint; require p_low >= global prevalence",
+  "lift_used_as_filter": false,
+  "delta_uplift": 0.0,
+  "min_sets_appearing_used": false,
+  "top_n_rulebook_truncation_used": false,
+  "extra_superset_improvement_margin_used": false,
+  "positive_utility_required": true,
+  "ranking_order": [
+    "U_low desc",
+    "EP_low desc",
+    "p_low desc",
+    "support desc",
+    "canonical_rule_key asc"
+  ],
+  "n_eligible_rules_prepruning": 8602,
+  "n_after_exact_coverage_deduplication": 4906,
+  "n_retained_rules": 1099,
+  "n_exact_coverage_rules_pruned": 3696,
+  "n_nonimproving_supersets_pruned": 3807,
+  "coverage": {
+    "n_formulations": 8403,
+    "n_positive_formulations": 3387,
+    "n_formulations_covered": 6621,
+    "overall_formulation_coverage": 0.7879328811138879,
+    "n_positive_formulations_covered": 3157,
+    "positive_class_coverage": 0.9320932979037496
+  },
+  "mining_audit": {
+    "n_rows": 8403,
+    "n_positive": 3387,
+    "baseline_positive_prevalence": 0.40307033202427706,
+    "max_rule_order": 4,
+    "min_support": 50,
+    "min_precision": 0.65,
+    "lambda_order": 0.5,
+    "wilson_z": 1.96,
+    "stage_totals": {
+      "enumerated": 916439,
+      "support_pass": 58918,
+      "precision_pass": 8602,
+      "wilson_pass": 8602,
+      "positive_utility_pass": 8602
+    },
+    "stage_by_order": [
+      {
+        "order": 1,
+        "enumerated": 76,
+        "support_pass": 76,
+        "precision_pass": 1,
+        "wilson_pass": 1,
+        "positive_utility_pass": 1
+      },
+      {
+        "order": 2,
+        "enumerated": 2675,
+        "support_pass": 2177,
+        "precision_pass": 163,
+        "wilson_pass": 163,
+        "positive_utility_pass": 163
+      },
+      {
+        "order": 3,
+        "enumerated": 57788,
+        "support_pass": 15503,
+        "precision_pass": 1994,
+        "wilson_pass": 1994,
+        "positive_utility_pass": 1994
+      },
+      {
+        "order": 4,
+        "enumerated": 855900,
+        "support_pass": 41162,
+        "precision_pass": 6444,
+        "wilson_pass": 6444,
+        "positive_utility_pass": 6444
+      }
+    ]
+  },
+  "config_hash": "07a2b8816e81b8718a6d70ae9baa3af01a0d8b41ec9d0d75a31ac18dedb18a9b",
+  "inputs": {
+    "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_HighConfidence_KMeans_20_development.pkl",
+    "development_feature_file_sha256": "f56588aab4e65a11422eeb698f0f84a8d0d685eb4365c62f1cc56c8178cc454f",
+    "development_target_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_HighConfidence_KMeans_20_development.xlsx",
+    "development_target_file_sha256": "912fa068d9e6466730ffb548526e6497df97b9dab8f75eee91799df48277d099",
+    "recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/3_Candidate_Selection/Outputs/Recommended_Final_Feature_Sets.csv",
+    "recommendations_file_sha256": "4c1ac5d073660aee29093b7a0dd435f67cc6413320200a173171afa19a4688ae"
+  }
+}

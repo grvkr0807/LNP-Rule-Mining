@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "case_name": "HC20_Stratified_LightGBM",
+  "analysis": "Phase 3 global-SHAP feature compression",
+  "reference_n_features": 42,
+  "reference_feature_hash": "33c4b23cec805ecd8bf7e5949f74219187a688c3d38b5be282a15046c96214c7",
+  "compression_applied": true,
+  "requested_top_n_values": [
+    14,
+    15,
+    16,
+    17,
+    18
+  ],
+  "selection_rule": "Features were globally ranked by held-out-fold TreeSHAP main-effect importance calculated on the uncompressed finalized Phase 2 reference; Top-14 through Top-18 sets were evaluated using fixed post-Phase-2 hyperparameters, and Top-18 was locked for exhaustive Phase 3 refinement.",
+  "shap_main_effects_computed_on_uncompressed_phase2_reference": true,
+  "shap_interactions_used_for_compression": false,
+  "global_ranking_reused_across_top_n_sets": true,
+  "hyperparameters_fixed_across_reference_and_top_n_sets": true,
+  "cv_strategy": "StratifiedKFold",
+  "cv_n_splits": 5,
+  "random_state": 42,
+  "validation_partition_loaded": false,
+  "locked_phase3_pool_n_features": 18,
+  "locked_set_id": "Top_18_Global_SHAP",
+  "reference_mean_f1_macro": 0.836176582258202,
+  "locked_mean_f1_macro": 0.8251277518399899,
+  "global_shap_ranking_file": "Global_SHAP_Ranking_Used.csv",
+  "locked_feature_file": "Features_Top_18_Global_SHAP.csv",
+  "aggregate_metrics_file": "Compression_Set_Aggregate_Metrics.csv",
+  "fold_metrics_file": "Compression_Set_Fold_Metrics.csv"
+}

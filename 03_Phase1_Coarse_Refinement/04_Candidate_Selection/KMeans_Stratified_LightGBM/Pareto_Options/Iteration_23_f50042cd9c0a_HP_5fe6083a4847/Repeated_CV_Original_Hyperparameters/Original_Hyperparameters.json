@@ -1,0 +1,23 @@
+{
+  "schema_version": 3,
+  "case_name": "KMeans_Stratified_LightGBM",
+  "pareto_option_id": "Iteration_23_f50042cd9c0a_HP_5fe6083a4847",
+  "representative_iteration": 23,
+  "hyperparameter_source": "exact best_params recorded in the Phase-1 Trained_Models_Iteration_<N>.pkl bundle",
+  "original_hyperparameter_source_iteration": 23,
+  "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_25/Iteration_23/Trained_Models_Iteration_23.pkl",
+  "original_hyperparameter_source_file_sha256": "4526d8bf0aaa3506c72787bc1de5cdd6f19e8be6857403a891006d23c8064803",
+  "hyperparameter_hash": "5fe6083a4847ec1f202f93e66a8abd74d19ae81109d215f49120fa4798c75a70",
+  "original_hyperparameters": {
+    "subsample": 1.0,
+    "reg_lambda": 0.0,
+    "num_leaves": 31,
+    "n_estimators": 200,
+    "min_child_samples": 10,
+    "max_depth": 20,
+    "learning_rate": 0.03,
+    "colsample_bytree": 0.7,
+    "class_weight": "balanced"
+  },
+  "hyperparameter_tuning_performed": false
+}

@@ -1,0 +1,35 @@
+{
+  "property_name": "Activity",
+  "label_name": "KMeans",
+  "data_split": "development",
+  "development_data_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+  "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+  "output_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Chemistry_Aware_Split/Scaffold_Analysis/Scaffold_Analysis_Results_Activity_KMeans_development.xlsx",
+  "output_assignment_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Chemistry_Aware_Split/Scaffold_Analysis/Development_Scaffold_Assignments.csv",
+  "columns": {
+    "smiles_column": "il_smiles",
+    "formulation_id_column": "formulation_id",
+    "source_column": "source_inferred",
+    "label_column": "kmeans_2bins"
+  },
+  "feature_matrix": {
+    "feature_matrix_key": "RDKit_Descriptors_NG",
+    "n_rows": 10391,
+    "n_features": 420
+  },
+  "fingerprint": {
+    "type": "Morgan_bit_vector",
+    "radius": 2,
+    "n_bits": 2048,
+    "include_chirality": true
+  },
+  "similarity_thresholds": [
+    0.6,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "high_similarity_pair_threshold": 0.8,
+  "elapsed_seconds": 32.20551609992981,
+  "rdkit_version": "2023.09.1"
+}

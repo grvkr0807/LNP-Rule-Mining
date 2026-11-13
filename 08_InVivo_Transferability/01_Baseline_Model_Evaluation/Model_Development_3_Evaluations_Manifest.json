@@ -1,0 +1,94 @@
+{
+  "property_name": "Activity",
+  "data_split_tag": "development",
+  "in_vivo_data_split_performed": false,
+  "development_tag_meaning": "complete retained in vivo dataset",
+  "label_names": [
+    "KMeans",
+    "HighConfidence_KMeans_10",
+    "HighConfidence_KMeans_20"
+  ],
+  "cv_strategies": [
+    "StratifiedKFold"
+  ],
+  "models": [
+    "LightGBM"
+  ],
+  "n_total_evaluations": 3,
+  "metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "f1_high_activity",
+    "f1_low_activity",
+    "f1_macro",
+    "f1_weighted",
+    "precision_high_activity",
+    "precision_low_activity",
+    "recall_high_activity",
+    "recall_low_activity",
+    "auroc",
+    "auprc"
+  ],
+  "primary_metric": "f1_macro",
+  "cv": {
+    "strategy": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "hyperparameters": {
+    "source_dataset": "in_vitro",
+    "source_data_split": "hyperparameter",
+    "in_vivo_retuning_performed": false,
+    "source_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning",
+    "source_workbooks": {
+      "KMeans": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_KMeans_hyperparameter.xlsx",
+      "HighConfidence_KMeans_10": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_HighConfidence_KMeans_10_hyperparameter.xlsx",
+      "HighConfidence_KMeans_20": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_HighConfidence_KMeans_20_hyperparameter.xlsx"
+    },
+    "best_params_all_labels": {
+      "KMeans": {
+        "subsample": 1.0,
+        "reg_lambda": 1.0,
+        "num_leaves": 31,
+        "n_estimators": 100,
+        "min_child_samples": 40,
+        "max_depth": 10,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9,
+        "class_weight": "balanced"
+      },
+      "HighConfidence_KMeans_10": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 150,
+        "min_child_samples": 40,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9,
+        "class_weight": "balanced"
+      },
+      "HighConfidence_KMeans_20": {
+        "subsample": 0.9,
+        "reg_lambda": 5.0,
+        "num_leaves": 63,
+        "n_estimators": 200,
+        "min_child_samples": 20,
+        "max_depth": 5,
+        "learning_rate": 0.2,
+        "colsample_bytree": 0.7,
+        "class_weight": null
+      }
+    }
+  },
+  "outputs": {
+    "workbook": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations.xlsx",
+    "summary_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations_Summary.csv",
+    "fold_metrics_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations_Fold_Metrics.csv",
+    "oof_predictions_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations_OOF_Predictions.csv",
+    "split_assignments_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations_Split_Assignments.csv",
+    "pickle": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations.pkl"
+  },
+  "elapsed_seconds": 17.058281898498535
+}

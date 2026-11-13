@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "completed_utc": "2026-08-14T04:33:52.316929+00:00",
+  "purpose": "Generate final rulebooks for all five locked SAR NM cases using one common frozen rule-mining parameter set.",
+  "locked_parameters": {
+    "number_of_quantile_bins": 6,
+    "minimum_support": 50,
+    "minimum_precision": 0.65,
+    "lambda_order": 0.5,
+    "maximum_rule_order": 4,
+    "wilson_z": 1.96,
+    "top_k_values": [
+      10,
+      25,
+      50,
+      100
+    ]
+  },
+  "cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "output_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook",
+  "case_directories": {
+    "KMeans_Stratified_LightGBM": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/KMeans_Stratified_RF"
+  },
+  "summary_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Final_Rulebook_Generation_Summary.csv",
+  "summary_csv_sha256": "c20aa2fd756a1ef80d71bbfce50ff6141793581572d0c550701ae8afd85c2b8e",
+  "file_manifest_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Final_Rulebook_File_Manifest.csv",
+  "file_manifest_csv_sha256": "2ff45dc13fec2e60c1358651af55957ded10e841d225f22be047e45bd077bbb2",
+  "rule_mining_core": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/Rule_Mining_Sensitivity_Core.py",
+  "rule_mining_core_sha256": "624f41dcd6040b75885892b2556c12742a79b4ac38dfa58c5c7eed18cd4374a1",
+  "phase3_recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/3_Candidate_Selection/Outputs/Recommended_Final_Feature_Sets.csv",
+  "phase3_recommendations_file_sha256": "4c1ac5d073660aee29093b7a0dd435f67cc6413320200a173171afa19a4688ae",
+  "script_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Generate_Final_Rulebooks_All_Cases.py",
+  "script_sha256": "8c58952224f766666afd029189fab8401e225e6ab2d53aafccde583582f2f8f1",
+  "validation_partition_loaded": false,
+  "parameter_retuning_performed": false,
+  "case_specific_parameter_changes": false
+}

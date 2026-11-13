@@ -1,0 +1,6 @@
+fold,n_train_rows,n_test_rows,n_train_groups,n_test_groups,n_train_low_activity,n_train_high_activity,n_test_low_activity,n_test_high_activity,test_high_activity_fraction
+1,1728,432,,,1154,574,289,143,0.33101851851851855
+2,1728,432,,,1154,574,289,143,0.33101851851851855
+3,1728,432,,,1154,574,289,143,0.33101851851851855
+4,1728,432,,,1155,573,288,144,0.3333333333333333
+5,1728,432,,,1155,573,288,144,0.3333333333333333

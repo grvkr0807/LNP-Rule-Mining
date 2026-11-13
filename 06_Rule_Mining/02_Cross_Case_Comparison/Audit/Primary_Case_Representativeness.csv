@@ -1,0 +1,6 @@
+case_name,case_label,mean_prominence_similarity_to_other_cases,n_prominence_pairwise_comparisons,mean_value_region_similarity_to_other_cases,n_value_region_pairwise_comparisons,mean_n_shared_comparable_features_to_other_cases
+KMeans_Stratified_LightGBM,Case 1,0.33697483397048167,4,0.8101790042869382,3,5.5
+HC10_Stratified_LightGBM,Case 2,0.33386211778017466,4,0.8141917778614676,4,5.5
+HC20_Stratified_LightGBM,Case 3,0.3857255901172,4,0.7570313582620307,4,6.0
+KMeans_FingerprintGrouped_LightGBM,Case 4,0.12211479284862564,4,0.7091097097665711,3,1.5
+KMeans_Stratified_RF,Case 5,0.26540967468681886,4,0.7702990223405678,4,4.5

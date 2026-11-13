@@ -1,0 +1,294 @@
+{
+  "phase1_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement",
+  "analysis_dir": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/SHAP_Parameters_Sensitivity",
+  "strict_reference_parameter_values": "(0.75, 0.25)",
+  "comparison_iteration": 5,
+  "strict_core_size": 77,
+  "iteration_range": [
+    1,
+    5
+  ],
+  "run_folders": {
+    "(0.90, 0.50)": "KMeans_Stratified_LightGBM_SHAP_90_50",
+    "(0.75, 0.50)": "KMeans_Stratified_LightGBM_SHAP_75_50",
+    "(0.90, 0.25)": "KMeans_Stratified_LightGBM_SHAP_90_25",
+    "(0.75, 0.25)": "KMeans_Stratified_LightGBM_SHAP_75_25"
+  },
+  "plot_order": [
+    "(0.90, 0.50)",
+    "(0.75, 0.50)",
+    "(0.90, 0.25)",
+    "(0.75, 0.25)"
+  ],
+  "plot_dimensions_inches": [
+    3.3,
+    3.0
+  ],
+  "font_size": 12,
+  "legend_font_size": 9,
+  "plot_output_format": "png",
+  "iteration_semantics": "Iteration i performance is evaluated using the same S_i feature set saved after Iteration i.",
+  "pairwise_core_retention_definition": "|S_i intersection S_j| / min(|S_i|, |S_j|)",
+  "pairwise_core_retention_interpretation": "For each pair, the smaller retained-feature set is treated as the strict set. A score of 1.0 means that it is completely contained within the larger set.",
+  "pairwise_core_retention_matrix": {
+    "(0.90, 0.50)": {
+      "(0.90, 0.50)": 1.0,
+      "(0.75, 0.50)": 0.9924242424242424,
+      "(0.90, 0.25)": 1.0,
+      "(0.75, 0.25)": 1.0
+    },
+    "(0.75, 0.50)": {
+      "(0.90, 0.50)": 0.9924242424242424,
+      "(0.75, 0.50)": 1.0,
+      "(0.90, 0.25)": 0.9891304347826086,
+      "(0.75, 0.25)": 1.0
+    },
+    "(0.90, 0.25)": {
+      "(0.90, 0.50)": 1.0,
+      "(0.75, 0.50)": 0.9891304347826086,
+      "(0.90, 0.25)": 1.0,
+      "(0.75, 0.25)": 0.974025974025974
+    },
+    "(0.75, 0.25)": {
+      "(0.90, 0.50)": 1.0,
+      "(0.75, 0.50)": 1.0,
+      "(0.90, 0.25)": 0.974025974025974,
+      "(0.75, 0.25)": 1.0
+    }
+  },
+  "pairwise_core_retention_results": [
+    {
+      "parameter_values_1": "(0.90, 0.50)",
+      "parameter_values_2": "(0.90, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "equal_size",
+      "non_strict_parameter_values": "equal_size",
+      "feature_count_1": 151,
+      "feature_count_2": 151,
+      "strict_feature_count": 151,
+      "intersection_size": 151,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.90, 0.50)",
+      "parameter_values_2": "(0.75, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.50)",
+      "non_strict_parameter_values": "(0.90, 0.50)",
+      "feature_count_1": 151,
+      "feature_count_2": 132,
+      "strict_feature_count": 132,
+      "intersection_size": 131,
+      "strict_features_missing": 1,
+      "similarity_score": 0.9924242424242424
+    },
+    {
+      "parameter_values_1": "(0.90, 0.50)",
+      "parameter_values_2": "(0.90, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.90, 0.25)",
+      "non_strict_parameter_values": "(0.90, 0.50)",
+      "feature_count_1": 151,
+      "feature_count_2": 92,
+      "strict_feature_count": 92,
+      "intersection_size": 92,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.90, 0.50)",
+      "parameter_values_2": "(0.75, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.25)",
+      "non_strict_parameter_values": "(0.90, 0.50)",
+      "feature_count_1": 151,
+      "feature_count_2": 77,
+      "strict_feature_count": 77,
+      "intersection_size": 77,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.75, 0.50)",
+      "parameter_values_2": "(0.90, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.50)",
+      "non_strict_parameter_values": "(0.90, 0.50)",
+      "feature_count_1": 132,
+      "feature_count_2": 151,
+      "strict_feature_count": 132,
+      "intersection_size": 131,
+      "strict_features_missing": 1,
+      "similarity_score": 0.9924242424242424
+    },
+    {
+      "parameter_values_1": "(0.75, 0.50)",
+      "parameter_values_2": "(0.75, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "equal_size",
+      "non_strict_parameter_values": "equal_size",
+      "feature_count_1": 132,
+      "feature_count_2": 132,
+      "strict_feature_count": 132,
+      "intersection_size": 132,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.75, 0.50)",
+      "parameter_values_2": "(0.90, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.90, 0.25)",
+      "non_strict_parameter_values": "(0.75, 0.50)",
+      "feature_count_1": 132,
+      "feature_count_2": 92,
+      "strict_feature_count": 92,
+      "intersection_size": 91,
+      "strict_features_missing": 1,
+      "similarity_score": 0.9891304347826086
+    },
+    {
+      "parameter_values_1": "(0.75, 0.50)",
+      "parameter_values_2": "(0.75, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.25)",
+      "non_strict_parameter_values": "(0.75, 0.50)",
+      "feature_count_1": 132,
+      "feature_count_2": 77,
+      "strict_feature_count": 77,
+      "intersection_size": 77,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.90, 0.25)",
+      "parameter_values_2": "(0.90, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.90, 0.25)",
+      "non_strict_parameter_values": "(0.90, 0.50)",
+      "feature_count_1": 92,
+      "feature_count_2": 151,
+      "strict_feature_count": 92,
+      "intersection_size": 92,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.90, 0.25)",
+      "parameter_values_2": "(0.75, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.90, 0.25)",
+      "non_strict_parameter_values": "(0.75, 0.50)",
+      "feature_count_1": 92,
+      "feature_count_2": 132,
+      "strict_feature_count": 92,
+      "intersection_size": 91,
+      "strict_features_missing": 1,
+      "similarity_score": 0.9891304347826086
+    },
+    {
+      "parameter_values_1": "(0.90, 0.25)",
+      "parameter_values_2": "(0.90, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "equal_size",
+      "non_strict_parameter_values": "equal_size",
+      "feature_count_1": 92,
+      "feature_count_2": 92,
+      "strict_feature_count": 92,
+      "intersection_size": 92,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.90, 0.25)",
+      "parameter_values_2": "(0.75, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.25)",
+      "non_strict_parameter_values": "(0.90, 0.25)",
+      "feature_count_1": 92,
+      "feature_count_2": 77,
+      "strict_feature_count": 77,
+      "intersection_size": 75,
+      "strict_features_missing": 2,
+      "similarity_score": 0.974025974025974
+    },
+    {
+      "parameter_values_1": "(0.75, 0.25)",
+      "parameter_values_2": "(0.90, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.25)",
+      "non_strict_parameter_values": "(0.90, 0.50)",
+      "feature_count_1": 77,
+      "feature_count_2": 151,
+      "strict_feature_count": 77,
+      "intersection_size": 77,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.75, 0.25)",
+      "parameter_values_2": "(0.75, 0.50)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.25)",
+      "non_strict_parameter_values": "(0.75, 0.50)",
+      "feature_count_1": 77,
+      "feature_count_2": 132,
+      "strict_feature_count": 77,
+      "intersection_size": 77,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    },
+    {
+      "parameter_values_1": "(0.75, 0.25)",
+      "parameter_values_2": "(0.90, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "(0.75, 0.25)",
+      "non_strict_parameter_values": "(0.90, 0.25)",
+      "feature_count_1": 77,
+      "feature_count_2": 92,
+      "strict_feature_count": 77,
+      "intersection_size": 75,
+      "strict_features_missing": 2,
+      "similarity_score": 0.974025974025974
+    },
+    {
+      "parameter_values_1": "(0.75, 0.25)",
+      "parameter_values_2": "(0.75, 0.25)",
+      "iteration": 5,
+      "strict_parameter_values": "equal_size",
+      "non_strict_parameter_values": "equal_size",
+      "feature_count_1": 77,
+      "feature_count_2": 77,
+      "strict_feature_count": 77,
+      "intersection_size": 77,
+      "strict_features_missing": 0,
+      "similarity_score": 1.0
+    }
+  ],
+  "plot_files": [
+    "Feature_Count_Trajectory.png",
+    "MacroF1_vs_Evaluated_Feature_Count.png",
+    "Iteration5_Strict_Core_Feature_Presence_Matrix.png",
+    "Iteration5_Pairwise_Core_Retention_Heatmap.png"
+  ],
+  "output_files": [
+    "SHAP_Parameter_Sensitivity_Iteration_History.csv",
+    "Iteration5_Feature_Counts.csv",
+    "Iteration5_Selected_Feature_Files.csv",
+    "Iteration5_Pairwise_Core_Retention_Matrix.csv",
+    "Iteration5_Pairwise_Core_Retention_Long.csv",
+    "Iteration5_Strict_Core_Presence_Matrix.csv",
+    "SHAP_Parameter_Sensitivity_Run_Summary.json"
+  ],
+  "validation_notes": {
+    "feature_count_trajectory": "Uses n_features_after_refinement.",
+    "predictive_sufficiency": "Pairs mean_test_f1_macro with n_features_evaluated. Both correspond to the refined feature/model state saved inside the same iteration directory.",
+    "feature_identity_analysis": "Uses all four Iteration-5 feature sets; no matched-count selection is performed.",
+    "presence_matrix_colors": {
+      "0": "absent (white)",
+      "1": "strict-reference feature retained (dark cyan)",
+      "2": "additional non-strict feature retained (dark orange)"
+    }
+  }
+}

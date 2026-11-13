@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "case_name": "KMeans_Stratified_LightGBM",
+  "recommended_iteration": 10,
+  "recommended_feature_hash": "5b298f21086029f8613357d729526e42f945062ddfc8bdc96802ee8b2d1be53f",
+  "model_name": "LightGBM",
+  "cv_strategy": "StratifiedKFold",
+  "cv_n_splits": 5,
+  "random_state": 42,
+  "primary_scoring": "f1_macro",
+  "best_cv_score_f1_macro": 0.7755993131344905,
+  "best_hyperparameters": {
+    "subsample": 0.7,
+    "reg_lambda": 5.0,
+    "num_leaves": 31,
+    "n_estimators": 100,
+    "min_child_samples": 20,
+    "max_depth": 10,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.7,
+    "class_weight": "balanced"
+  },
+  "source_summary_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_Stratified_LightGBM/Hyperparameter_Retuning_Selected_Iteration_10/Hyperparameter_Retuning_Summary_KMeans_Stratified_LightGBM_Selected_Iteration_10.json"
+}

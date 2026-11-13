@@ -1,0 +1,49 @@
+{
+  "schema_version": 4,
+  "case_name": "KMeans_Stratified_RF",
+  "selection_rule": "Choose the smallest exact Pareto feature-set option whose overall repeated-CV mean Macro-F1 95% confidence-interval upper bound is greater than or equal to the one-standard-error performance threshold: best-option overall mean minus the best option's standard error. Resolve equal-size ties by higher overall repeated-CV mean Macro-F1, then longer exact recurrence, then earlier representative iteration.",
+  "qualification_statistic": "overall_repeated_cv_mean_f1_macro_ci95_upper",
+  "qualification_operator": ">=",
+  "uncertainty_unit": "standard error of the overall repeated-CV mean, calculated from the repeat-level means; each repeat-level mean averages the five fold-level Macro-F1 values",
+  "best_performing_option_id": "Iteration_1_0ca187e11934_HP_dc5a418cd169",
+  "best_performance_iteration": 1,
+  "best_performance_n_features": 192,
+  "best_option_overall_repeated_cv_mean_f1_macro": 0.7763021841517384,
+  "best_option_overall_repeated_cv_mean_f1_macro_se": 0.000843462464337405,
+  "one_se_performance_threshold_f1_macro": 0.7754587216874009,
+  "upper_ci_one_se_performance_qualified_option_ids": [
+    "Iteration_5_c5a779365873_HP_dc5a418cd169",
+    "Iteration_1_0ca187e11934_HP_dc5a418cd169"
+  ],
+  "one_se_performance_qualified_option_ids": [
+    "Iteration_5_c5a779365873_HP_dc5a418cd169",
+    "Iteration_1_0ca187e11934_HP_dc5a418cd169"
+  ],
+  "recommended_phase2_option_id": "Iteration_5_c5a779365873_HP_dc5a418cd169",
+  "recommended_iteration": 5,
+  "recommended_source_iterations": [
+    5
+  ],
+  "recommended_n_features": 54,
+  "recommended_feature_hash": "c5a7793658732966fa6764a031065f8ff7f5092c2c80cc6cfc5f9fc4fe1cdc9d",
+  "recommended_hyperparameter_hash": "dc5a418cd169b6471c06971f7a26edfb7d0d7238819fea542fa07d035d2e146d",
+  "recommended_original_hyperparameter_source_iteration": 5,
+  "recommended_original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_RF_SHAP_75_25/Iteration_5/Trained_Models_Iteration_5.pkl",
+  "recommended_original_hyperparameters": {
+    "max_depth": 20,
+    "max_features": 0.25,
+    "min_samples_leaf": 2,
+    "min_samples_split": 10,
+    "n_estimators": 50
+  },
+  "hyperparameter_tuning_performed_during_selection": false,
+  "final_hyperparameter_tuning_performed_after_selection": false,
+  "recommended_option_overall_repeated_cv_mean_f1_macro": 0.7736442166463969,
+  "recommended_option_overall_repeated_cv_mean_f1_macro_se": 0.0009488247605475855,
+  "recommended_option_overall_repeated_cv_mean_f1_macro_ci95": [
+    0.7714978259181382,
+    0.7757906073746557
+  ],
+  "recommended_selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_RF_SHAP_75_25/Iteration_5/Selected_Features_After_Iteration_5.csv",
+  "validation_split_loaded": false
+}

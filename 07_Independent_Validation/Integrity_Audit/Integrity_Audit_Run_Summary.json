@@ -1,0 +1,65 @@
+{
+  "audit_status_counts": {
+    "PASS": 4,
+    "WARN": 2
+  },
+  "base_dir": "<PROJECT_ROOT>",
+  "checks": [
+    {
+      "check": "Validation_workbook_vs_QC_row_alignment",
+      "detail": "45 numeric overlapping features checked row-by-row; 0 failed.",
+      "status": "PASS",
+      "value": 45.0
+    },
+    {
+      "check": "Development_workbook_vs_QC_row_alignment",
+      "detail": "45 numeric overlapping features checked row-by-row; 0 failed.",
+      "status": "PASS",
+      "value": 45.0
+    },
+    {
+      "check": "Development_QC_vs_preQC_matrix_identity",
+      "detail": "Pre-QC feature pickle not available; optional QC-subset identity check skipped.",
+      "status": "WARN",
+      "value": NaN
+    },
+    {
+      "check": "Validation_QC_vs_preQC_matrix_identity",
+      "detail": "Pre-QC feature pickle not available; optional QC-subset identity check skipped.",
+      "status": "WARN",
+      "value": NaN
+    },
+    {
+      "check": "Validation_label_semantics",
+      "detail": "5 sources checked; 0 failed source-wise high-activity ordering.",
+      "status": "PASS",
+      "value": 5.0
+    },
+    {
+      "check": "Independent_rule_recalculation_vs_existing_validation_output",
+      "detail": "1025 frozen rules independently recomputed; 0 disagree with Rule_Level_Validation.csv.",
+      "status": "PASS",
+      "value": 1025.0
+    }
+  ],
+  "created_local_timestamp": "2026-08-13T23:13:30.673938-04:00",
+  "development_baseline": 0.4221922817823116,
+  "development_n_rows": 10391,
+  "important_note": "This script is diagnostic only. It does not alter the frozen rulebook, re-mine rules, change rule boundaries, or modify Rulebook_Validation outputs.",
+  "n_frozen_conditions": 3343,
+  "n_frozen_rules": 1025,
+  "output_dir": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Integrity_Audit",
+  "purpose": "read-only integrity audit of frozen-rulebook independent validation",
+  "qc_feature_count": 420,
+  "rule_feature_count": 14,
+  "selected_rule_ranks": [
+    1,
+    2,
+    16,
+    328,
+    788,
+    1012
+  ],
+  "validation_baseline": 0.41951896392229415,
+  "validation_n_rows": 2162
+}

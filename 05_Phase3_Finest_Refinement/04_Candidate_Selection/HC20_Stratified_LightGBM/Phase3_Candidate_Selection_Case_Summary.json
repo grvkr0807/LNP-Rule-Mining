@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "case_name": "HC20_Stratified_LightGBM",
+  "status": "complete",
+  "numerical_best_combination_id": "Kept_Features_F01_F03_F04_F05_F06_F07_F08_F09_F10_F11_F12_F13_F14_F15_F17_F18",
+  "numerical_best_n_features": 16,
+  "numerical_best_original_five_fold_mean_f1_macro": 0.8243103769327664,
+  "repeated_cv_se_f1_macro": 0.0004593587840110889,
+  "screening_threshold_f1_macro": 0.8238510181487554,
+  "n_total_combinations": 262143,
+  "n_threshold_qualified_combinations": 7,
+  "minimum_qualifying_n_features": 14,
+  "n_smallest_qualifying_candidates": 2,
+  "recommended_combination_id": "Kept_Features_F01_F04_F05_F06_F07_F08_F09_F10_F11_F12_F13_F14_F15_F18",
+  "recommended_n_features": 14,
+  "recommended_original_five_fold_mean_f1_macro": 0.8240149403750678,
+  "validation_split_loaded": false,
+  "alternative_combinations_repeated_cv_evaluated": false,
+  "completed_utc": "2026-08-11T02:19:52+00:00"
+}

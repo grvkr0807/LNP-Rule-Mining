@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "iteration_semantics": "Each Iteration_i folder contains S_i, models trained on S_i, and performance evaluated on S_i. SHAP uses M_(i-1), S_(i-1).",
+  "test_case": "HC10_Stratified_LightGBM",
+  "output_case_name": "HC10_Stratified_LightGBM_SHAP_75_25",
+  "case_config": {
+    "label_name": "HighConfidence_KMeans_10",
+    "cv_strategy": "StratifiedKFold",
+    "model_name": "LightGBM"
+  },
+  "start_iteration": 1,
+  "end_iteration": 5,
+  "hyperparameter_workbook_source": "user_supplied_exact_path",
+  "hyperparameter_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_HighConfidence_KMeans_10_hyperparameter.xlsx",
+  "hyperparameter_workbook_sha256": "95af2bd0d87770f1e1e750024e749c93e9af9aa7f10cb198f9210ed3a3f57874",
+  "hyperparameter_expected_start_iteration": 1,
+  "hyperparameter_expected_end_iteration": 5,
+  "hyperparameter_range_warnings": [],
+  "best_params": {
+    "subsample": 1.0,
+    "reg_lambda": 5.0,
+    "num_leaves": 31,
+    "n_estimators": 150,
+    "min_child_samples": 40,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.9,
+    "class_weight": "balanced"
+  },
+  "initial_source_kind": "pre_refinement_complete_feature_models",
+  "initial_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Model_Development_12_Evaluations/Model_Development_12_Evaluations.pkl",
+  "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_HighConfidence_KMeans_10_development.pkl",
+  "development_feature_file_sha256": "45bc16d99311c0217dbd633527d14486010836e390d340d93579fccd669de5d2",
+  "development_target_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_HighConfidence_KMeans_10_development.xlsx",
+  "development_target_file_sha256": "bcae8dbedd2f6650d1a478bd318ae98b4a6d799ae2a69a44bd90f7ebd79d71fc",
+  "project_random_state": 42,
+  "selection_rules": {
+    "main_shap_importance_mass_fraction": 0.75,
+    "interaction_partner_fraction": 0.25,
+    "strict_correlation_threshold": 0.99,
+    "correlation_is_rescue_only": true
+  },
+  "strict_correlation_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/4_Feature_Correlation_StrictClusters_Activity_KMeans_development.xlsx",
+  "strict_correlation_workbook_sha256": "846cff96a994501938e0847db954cca062fc6e19df7dd4ae269223157f2c519c",
+  "strict_cluster_sheet": "Members_099",
+  "n_strict_clusters": 48,
+  "n_strict_clustered_features": 196,
+  "validation_split_loaded": false
+}

@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "summary_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/KMeans_Stratified_RF/Pareto_Options/Iteration_5_c5a779365873_HP_dc5a418cd169/Repeated_CV_Original_Hyperparameters/Repeated_CV_Original_Hyperparameters_Summary.json",
+  "fold_metrics_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/KMeans_Stratified_RF/Pareto_Options/Iteration_5_c5a779365873_HP_dc5a418cd169/Repeated_CV_Original_Hyperparameters/Repeated_CV_Original_Hyperparameters_Fold_Metrics.csv",
+  "repeat_level_metrics_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/KMeans_Stratified_RF/Pareto_Options/Iteration_5_c5a779365873_HP_dc5a418cd169/Repeated_CV_Original_Hyperparameters/Repeated_CV_Original_Hyperparameters_Repeat_Level_Metrics.csv",
+  "feature_hash": "c5a7793658732966fa6764a031065f8ff7f5092c2c80cc6cfc5f9fc4fe1cdc9d",
+  "hyperparameter_hash": "dc5a418cd169b6471c06971f7a26edfb7d0d7238819fea542fa07d035d2e146d",
+  "hyperparameter_tuning_performed": false
+}

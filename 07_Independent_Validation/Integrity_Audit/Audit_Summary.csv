@@ -1,0 +1,7 @@
+check,status,value,detail
+Validation_workbook_vs_QC_row_alignment,PASS,45.0,45 numeric overlapping features checked row-by-row; 0 failed.
+Development_workbook_vs_QC_row_alignment,PASS,45.0,45 numeric overlapping features checked row-by-row; 0 failed.
+Development_QC_vs_preQC_matrix_identity,WARN,,Pre-QC feature pickle not available; optional QC-subset identity check skipped.
+Validation_QC_vs_preQC_matrix_identity,WARN,,Pre-QC feature pickle not available; optional QC-subset identity check skipped.
+Validation_label_semantics,PASS,5.0,5 sources checked; 0 failed source-wise high-activity ordering.
+Independent_rule_recalculation_vs_existing_validation_output,PASS,1025.0,1025 frozen rules independently recomputed; 0 disagree with Rule_Level_Validation.csv.

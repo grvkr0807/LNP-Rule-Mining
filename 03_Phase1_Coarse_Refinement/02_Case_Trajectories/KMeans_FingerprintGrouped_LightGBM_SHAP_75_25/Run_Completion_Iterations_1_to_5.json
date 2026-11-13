@@ -1,0 +1,9 @@
+{
+  "test_case": "KMeans_FingerprintGrouped_LightGBM",
+  "start_iteration": 1,
+  "end_iteration": 5,
+  "n_features_after_final_iteration": 87,
+  "segment_elapsed_seconds": 100.79911994934082,
+  "hyperparameter_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_KMeans_FingerprintGrouped_hyperparameter.xlsx",
+  "next_required_action": "Retune hyperparameters using features retained after Iteration 5 before starting Iteration 6."
+}

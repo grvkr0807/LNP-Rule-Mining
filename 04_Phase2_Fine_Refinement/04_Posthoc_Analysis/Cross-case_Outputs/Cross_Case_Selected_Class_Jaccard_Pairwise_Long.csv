@@ -1,0 +1,11 @@
+case_i,case_i_label,case_i_n_classes,case_j,case_j_label,case_j_n_classes,n_intersection,n_union,jaccard_similarity,shared_class_ids,shared_class_names
+KMeans_Stratified_LightGBM,Case 1,6,HC10_Stratified_LightGBM,Case 2,10,6,10,0.6,C03;C05;C07;C10;C11;C12,Elements and Functional Groups | Lipophilicity | Electrostatics | Composite/Fingerprint | Composition | Experimental Context
+KMeans_Stratified_LightGBM,Case 1,6,HC20_Stratified_LightGBM,Case 3,7,6,7,0.8571428571428571,C03;C05;C07;C10;C11;C12,Elements and Functional Groups | Lipophilicity | Electrostatics | Composite/Fingerprint | Composition | Experimental Context
+KMeans_Stratified_LightGBM,Case 1,6,KMeans_FingerprintGrouped_LightGBM,Case 4,4,2,8,0.25,C03;C12,Elements and Functional Groups | Experimental Context
+KMeans_Stratified_LightGBM,Case 1,6,KMeans_Stratified_RF,Case 5,7,4,9,0.4444444444444444,C05;C07;C10;C11,Lipophilicity | Electrostatics | Composite/Fingerprint | Composition
+HC10_Stratified_LightGBM,Case 2,10,HC20_Stratified_LightGBM,Case 3,7,7,10,0.7,C03;C05;C06;C07;C10;C11;C12,Elements and Functional Groups | Lipophilicity | Molar Refractivity | Electrostatics | Composite/Fingerprint | Composition | Experimental Context
+HC10_Stratified_LightGBM,Case 2,10,KMeans_FingerprintGrouped_LightGBM,Case 4,4,4,10,0.4,C01;C03;C06;C12,Size and Shape | Elements and Functional Groups | Molar Refractivity | Experimental Context
+HC10_Stratified_LightGBM,Case 2,10,KMeans_Stratified_RF,Case 5,7,7,10,0.7,C02;C04;C05;C06;C07;C10;C11,Topology | Polarity | Lipophilicity | Molar Refractivity | Electrostatics | Composite/Fingerprint | Composition
+HC20_Stratified_LightGBM,Case 3,7,KMeans_FingerprintGrouped_LightGBM,Case 4,4,3,8,0.375,C03;C06;C12,Elements and Functional Groups | Molar Refractivity | Experimental Context
+HC20_Stratified_LightGBM,Case 3,7,KMeans_Stratified_RF,Case 5,7,5,9,0.5555555555555556,C05;C06;C07;C10;C11,Lipophilicity | Molar Refractivity | Electrostatics | Composite/Fingerprint | Composition
+KMeans_FingerprintGrouped_LightGBM,Case 4,4,KMeans_Stratified_RF,Case 5,7,1,10,0.1,C06,Molar Refractivity

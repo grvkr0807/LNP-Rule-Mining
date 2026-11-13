@@ -1,0 +1,23 @@
+{
+  "schema_version": 3,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "pareto_option_id": "Iteration_22_182015ed1e0a_HP_9a0fed0a9829",
+  "representative_iteration": 22,
+  "hyperparameter_source": "exact best_params recorded in the Phase-1 Trained_Models_Iteration_<N>.pkl bundle",
+  "original_hyperparameter_source_iteration": 22,
+  "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Trained_Models_Iteration_22.pkl",
+  "original_hyperparameter_source_file_sha256": "5a7c0ab839a5690a2f905241ca045f30843ed3bf4e192c3030d9cf805d7c138a",
+  "hyperparameter_hash": "9a0fed0a98297c291c4b906e6f5b6c3ad3c284cb944e6afa25eb4e073b52761c",
+  "original_hyperparameters": {
+    "subsample": 1.0,
+    "reg_lambda": 5.0,
+    "num_leaves": 31,
+    "n_estimators": 150,
+    "min_child_samples": 40,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "colsample_bytree": 0.9,
+    "class_weight": "balanced"
+  },
+  "hyperparameter_tuning_performed": false
+}

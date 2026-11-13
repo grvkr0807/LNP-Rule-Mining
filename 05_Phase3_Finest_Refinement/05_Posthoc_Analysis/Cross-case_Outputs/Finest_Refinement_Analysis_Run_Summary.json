@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "generated_utc": "2026-09-02T16:26:44+00:00",
+  "analysis": "Phase 3 finest-refinement cross-case selected-feature architecture analysis",
+  "phase3_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement",
+  "phase2_root_for_feature_class_mapping": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement",
+  "candidate_selection_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/3_Candidate_Selection/Outputs",
+  "analysis_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/4_Finest_Refinement_Analysis",
+  "requested_cases": null,
+  "analyzed_cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "analyzed_case_labels": [
+    "Case 1",
+    "Case 2",
+    "Case 3",
+    "Case 4",
+    "Case 5"
+  ],
+  "skipped_cases": [],
+  "n_cases_analyzed": 5,
+  "cross_case_scope": "only cases analyzed in this invocation",
+  "representation_levels": [
+    "exact_final_phase3_features",
+    "final_phase3_features_mapped_to_authoritative_phase2_classes"
+  ],
+  "mapped_class_deduplication_rule": "within each case, a Phase 2 class is counted once even when multiple selected Phase 3 features map to that class",
+  "plot_protocol": {
+    "figure_inches": [
+      3.3,
+      3.0
+    ],
+    "dpi": 600,
+    "base_font_size": 12,
+    "legend_font_size": 10,
+    "axis_line_width": 1.0,
+    "data_line_width": 1.5,
+    "marker_size": 4.0,
+    "single_color": "#008B8B",
+    "second_color": "#FF8C00",
+    "heatmap_scale": "dark orange to dark cyan",
+    "font_directory": "<INTERNAL_STORAGE_ROOT>/Fonts",
+    "registered_regular_font": "<INTERNAL_STORAGE_ROOT>/Fonts/times.ttf"
+  },
+  "new_model_fits_performed": false,
+  "hyperparameter_tuning_performed": false,
+  "shap_calculations_performed": false,
+  "validation_split_loaded": false
+}

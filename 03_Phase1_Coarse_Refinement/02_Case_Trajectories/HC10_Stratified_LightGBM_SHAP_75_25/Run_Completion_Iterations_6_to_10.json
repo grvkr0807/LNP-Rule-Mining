@@ -1,0 +1,9 @@
+{
+  "test_case": "HC10_Stratified_LightGBM",
+  "start_iteration": 6,
+  "end_iteration": 10,
+  "n_features_after_final_iteration": 63,
+  "segment_elapsed_seconds": 948.6850624084473,
+  "hyperparameter_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Hyperparameter_Tuning_After_Iteration5/Hyperparameter_Tuning_Results_HC10_Stratified_LightGBM_After_Iteration_5.xlsx",
+  "next_required_action": "Retune hyperparameters using features retained after Iteration 10 before starting Iteration 11."
+}

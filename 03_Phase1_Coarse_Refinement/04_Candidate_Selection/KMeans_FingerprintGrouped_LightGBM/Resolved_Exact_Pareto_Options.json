@@ -1,0 +1,178 @@
+{
+  "schema_version": 3,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "resolution_unit": "exact feature-name set plus exact original hyperparameter dictionary",
+  "n_resolved_exact_pareto_options": 3,
+  "hyperparameter_tuning_performed": false,
+  "pareto_options": [
+    {
+      "feature_hash": "182015ed1e0a8af36aa02f4d9f2a38c1514bb536122459daa1ad864eaf17db44",
+      "hyperparameter_hash": "9a0fed0a98297c291c4b906e6f5b6c3ad3c284cb944e6afa25eb4e073b52761c",
+      "original_hyperparameters": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 150,
+        "min_child_samples": 40,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9,
+        "class_weight": "balanced"
+      },
+      "n_features": 52,
+      "source_iterations": [
+        22,
+        23,
+        24,
+        25
+      ],
+      "observed_history_points": [
+        {
+          "iteration": 22,
+          "observed_mean_macro_f1": 0.638960018529722
+        },
+        {
+          "iteration": 23,
+          "observed_mean_macro_f1": 0.638960018529722
+        },
+        {
+          "iteration": 24,
+          "observed_mean_macro_f1": 0.638960018529722
+        },
+        {
+          "iteration": 25,
+          "observed_mean_macro_f1": 0.638960018529722
+        }
+      ],
+      "selected_feature_files_by_iteration": {
+        "22": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Selected_Features_After_Iteration_22.csv",
+        "23": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_23/Selected_Features_After_Iteration_23.csv",
+        "24": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_24/Selected_Features_After_Iteration_24.csv",
+        "25": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_25/Selected_Features_After_Iteration_25.csv"
+      },
+      "hyperparameter_source_files_by_iteration": {
+        "22": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Trained_Models_Iteration_22.pkl",
+        "23": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_23/Trained_Models_Iteration_23.pkl",
+        "24": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_24/Trained_Models_Iteration_24.pkl",
+        "25": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_25/Trained_Models_Iteration_25.pkl"
+      },
+      "hyperparameter_source_file_sha256_by_iteration": {
+        "22": "5a7c0ab839a5690a2f905241ca045f30843ed3bf4e192c3030d9cf805d7c138a",
+        "23": "d64196af857df12c9385ea14b7cdc16c810292b780b1834228eb5c066f958ca5",
+        "24": "0e6477f9c0bb0aa8f7c73aa7923ad24e124a5015501928b88b115b515f15e4d6",
+        "25": "99261b094cfda37667cf305f179b73249e4f408b2db89d64b849598d3824eb29"
+      },
+      "representative_iteration": 22,
+      "last_observed_iteration": 25,
+      "n_exact_equivalent_iterations": 4,
+      "exact_equivalent_iterations_contiguous": true,
+      "pareto_option_id": "Iteration_22_182015ed1e0a_HP_9a0fed0a9829",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Selected_Features_After_Iteration_22.csv",
+      "original_hyperparameter_source_iteration": 22,
+      "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Trained_Models_Iteration_22.pkl",
+      "original_hyperparameter_source_file_sha256": "5a7c0ab839a5690a2f905241ca045f30843ed3bf4e192c3030d9cf805d7c138a"
+    },
+    {
+      "feature_hash": "7a4141cfec3ffe22005235501a09ae63de6595cd30811c5fc9002b333ab4ee0f",
+      "hyperparameter_hash": "9a0fed0a98297c291c4b906e6f5b6c3ad3c284cb944e6afa25eb4e073b52761c",
+      "original_hyperparameters": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 150,
+        "min_child_samples": 40,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9,
+        "class_weight": "balanced"
+      },
+      "n_features": 53,
+      "source_iterations": [
+        21
+      ],
+      "observed_history_points": [
+        {
+          "iteration": 21,
+          "observed_mean_macro_f1": 0.6402161638273517
+        }
+      ],
+      "selected_feature_files_by_iteration": {
+        "21": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_21/Selected_Features_After_Iteration_21.csv"
+      },
+      "hyperparameter_source_files_by_iteration": {
+        "21": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_21/Trained_Models_Iteration_21.pkl"
+      },
+      "hyperparameter_source_file_sha256_by_iteration": {
+        "21": "2d5e6d8b3258646aec8951a985cd5816280e47d08995e5b3656d7370d9d763bc"
+      },
+      "representative_iteration": 21,
+      "last_observed_iteration": 21,
+      "n_exact_equivalent_iterations": 1,
+      "exact_equivalent_iterations_contiguous": true,
+      "pareto_option_id": "Iteration_21_7a4141cfec3f_HP_9a0fed0a9829",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_21/Selected_Features_After_Iteration_21.csv",
+      "original_hyperparameter_source_iteration": 21,
+      "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_21/Trained_Models_Iteration_21.pkl",
+      "original_hyperparameter_source_file_sha256": "2d5e6d8b3258646aec8951a985cd5816280e47d08995e5b3656d7370d9d763bc"
+    },
+    {
+      "feature_hash": "83f98b217aaa74a293fe0cb32cfdfbf594770305265f2f6b9826767cece04f89",
+      "hyperparameter_hash": "1fa5430429608458115a5ec55a9ae1bb3762eb2634b72cec5c22f8157407ff69",
+      "original_hyperparameters": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 50,
+        "min_child_samples": 10,
+        "max_depth": -1,
+        "learning_rate": 0.2,
+        "colsample_bytree": 0.7,
+        "class_weight": "balanced"
+      },
+      "n_features": 54,
+      "source_iterations": [
+        18,
+        19,
+        20
+      ],
+      "observed_history_points": [
+        {
+          "iteration": 18,
+          "observed_mean_macro_f1": 0.6505234115708782
+        },
+        {
+          "iteration": 19,
+          "observed_mean_macro_f1": 0.6505234115708782
+        },
+        {
+          "iteration": 20,
+          "observed_mean_macro_f1": 0.6505234115708782
+        }
+      ],
+      "selected_feature_files_by_iteration": {
+        "18": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_18/Selected_Features_After_Iteration_18.csv",
+        "19": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_19/Selected_Features_After_Iteration_19.csv",
+        "20": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_20/Selected_Features_After_Iteration_20.csv"
+      },
+      "hyperparameter_source_files_by_iteration": {
+        "18": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_18/Trained_Models_Iteration_18.pkl",
+        "19": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_19/Trained_Models_Iteration_19.pkl",
+        "20": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_20/Trained_Models_Iteration_20.pkl"
+      },
+      "hyperparameter_source_file_sha256_by_iteration": {
+        "18": "32e236be0158d01f4749aae6b401f47d6d4569a8ca152cf3a855e3fe382f2a6d",
+        "19": "ad60870e813e93ddb30836354a1851a31344e932fa9022547b51e8672e1b6666",
+        "20": "7391bd0eb6928edeb269484daca379fb658f8e5288a0027ade6aeb0efca7c489"
+      },
+      "representative_iteration": 18,
+      "last_observed_iteration": 20,
+      "n_exact_equivalent_iterations": 3,
+      "exact_equivalent_iterations_contiguous": true,
+      "pareto_option_id": "Iteration_18_83f98b217aaa_HP_1fa543042960",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_18/Selected_Features_After_Iteration_18.csv",
+      "original_hyperparameter_source_iteration": 18,
+      "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_18/Trained_Models_Iteration_18.pkl",
+      "original_hyperparameter_source_file_sha256": "32e236be0158d01f4749aae6b401f47d6d4569a8ca152cf3a855e3fe382f2a6d"
+    }
+  ]
+}

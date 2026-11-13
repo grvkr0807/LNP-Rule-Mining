@@ -1,0 +1,5 @@
+parameter_values,run_folder,iteration,retained_feature_count,is_strict_reference
+"(0.90, 0.50)",KMeans_Stratified_LightGBM_SHAP_90_50,5,151,False
+"(0.75, 0.50)",KMeans_Stratified_LightGBM_SHAP_75_50,5,132,False
+"(0.90, 0.25)",KMeans_Stratified_LightGBM_SHAP_90_25,5,92,False
+"(0.75, 0.25)",KMeans_Stratified_LightGBM_SHAP_75_25,5,77,True

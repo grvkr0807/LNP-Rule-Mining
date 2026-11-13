@@ -1,0 +1,9 @@
+{
+  "test_case": "KMeans_Stratified_RF",
+  "start_iteration": 11,
+  "end_iteration": 15,
+  "n_features_after_final_iteration": 32,
+  "segment_elapsed_seconds": 32360.269852876663,
+  "hyperparameter_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_RF_SHAP_75_25/Hyperparameter_Tuning_After_Iteration10/Hyperparameter_Tuning_Results_KMeans_Stratified_RF_After_Iteration_10.xlsx",
+  "next_required_action": "Retune hyperparameters using features retained after Iteration 15 before starting Iteration 16."
+}

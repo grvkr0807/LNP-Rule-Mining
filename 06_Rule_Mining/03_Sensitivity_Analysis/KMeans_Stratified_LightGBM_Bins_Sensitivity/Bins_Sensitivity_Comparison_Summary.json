@@ -1,0 +1,66 @@
+{
+  "schema_version": 4,
+  "status": "completed",
+  "case_name": "KMeans_Stratified_LightGBM",
+  "sensitivity_parameter": "number_of_quantile_bins",
+  "tested_values": [
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "sequential_sensitivity_order": [
+    "number_of_bins",
+    "minimum_support",
+    "minimum_precision",
+    "lambda_complexity_penalty",
+    "maximum_rule_order"
+  ],
+  "current_fixed_interim_parameters": {
+    "minimum_support": 50,
+    "minimum_precision": 0.65,
+    "lambda_complexity_penalty": 0.5,
+    "maximum_rule_order": 3,
+    "wilson_z": 1.96
+  },
+  "primary_rule_ranking_windows": [
+    10,
+    25,
+    50,
+    100
+  ],
+  "rank_weight": "w(r)=1/log2(rank+1)",
+  "primary_evaluation_criteria": [
+    "feature_best_occurrence_rank_weight_trajectory",
+    "whole_rulebook_normalized_cumulative_feature_prominence_trajectory",
+    "pairwise_normalized_cumulative_prominence_profile_similarity",
+    "rank_weighted_feature_value_region_similarity",
+    "feature_based_mean_similarity_to_all_other_bins_representativeness"
+  ],
+  "best_occurrence_definition": "w(r_best), independent of Top-K",
+  "cumulative_feature_prominence_definition": "sum feature occurrence w(r) over the entire retained rulebook divided by sum_r k_r*w(r)",
+  "prominence_profile_similarity": "1 - 0.5*L1 distance between complete normalized cumulative-prominence vectors; 1 indicates identical feature architecture",
+  "feature_value_region_profile": "within each feature/bin setting, every retained-rule occurrence contributes w(r)/(percentile interval width); the profile is normalized to unit area",
+  "feature_value_region_similarity": "weighted overlap/union of normalized profiles; complete pairwise bin comparisons are retained",
+  "bin_representativeness": "for each tested bin setting, mean similarity to all other tested bins is reported separately for prominence profiles and feature-value regions",
+  "feature_value_ranking_unit": "complete feature interval/category; lower and upper bounds share one rank",
+  "feature_value_coordinates": "raw and empirical-percentile bounds stored side by side",
+  "feature_value_visualization": "top-5 ranked continuous intervals per bin setting, plotted on percentile scale without connecting trajectories",
+  "feature_pair_analysis": "recurrence only; no pair-specific value combinations",
+  "whole_rulebook_rank_weighted_feature_value_score": false,
+  "ordinary_feature_recurrence_plot_generated": false,
+  "rulebook_size_plot_generated": false,
+  "decision_outputs": {
+    "primary_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/KMeans_Stratified_LightGBM_Bins_Sensitivity/Comparison/Primary_Evaluation.xlsx",
+    "secondary_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/KMeans_Stratified_LightGBM_Bins_Sensitivity/Comparison/Secondary_Evaluation.xlsx",
+    "plot_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/KMeans_Stratified_LightGBM_Bins_Sensitivity/Comparison/Plots",
+    "plot_related_output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/KMeans_Stratified_LightGBM_Bins_Sensitivity/Comparison/Plot_Related_Output",
+    "audit_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/KMeans_Stratified_LightGBM_Bins_Sensitivity/Comparison/Audit"
+  },
+  "comparison_regenerated_without_rule_mining": false,
+  "xlsxwriter_version": "3.2.0",
+  "output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/KMeans_Stratified_LightGBM_Bins_Sensitivity",
+  "script_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/1_Bins_Sensitivity.py",
+  "script_sha256": "57d944680f5e96e15157ade368ece6ffff049958a6ec46e06a53c9bd5a6ae95d"
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": 2,
+  "iteration_semantics": "Each Iteration_i folder contains S_i, models trained on S_i, and performance evaluated on S_i. SHAP uses M_(i-1), S_(i-1).",
+  "test_case": "KMeans_Stratified_LightGBM",
+  "output_case_name": "KMeans_Stratified_LightGBM_SHAP_75_25",
+  "case_config": {
+    "label_name": "KMeans",
+    "cv_strategy": "StratifiedKFold",
+    "model_name": "LightGBM"
+  },
+  "start_iteration": 6,
+  "end_iteration": 10,
+  "hyperparameter_workbook_source": "user_supplied_exact_path",
+  "hyperparameter_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_25/Hyperparameter_Tuning_After_Iteration5/Hyperparameter_Tuning_Results_KMeans_Stratified_LightGBM_After_Iteration_5.xlsx",
+  "hyperparameter_workbook_sha256": "3a231b6e56beed75a33e00ab1040f3df6f247437e5c23da7bb191a11575d06fd",
+  "hyperparameter_expected_start_iteration": 6,
+  "hyperparameter_expected_end_iteration": 10,
+  "hyperparameter_range_warnings": [],
+  "best_params": {
+    "subsample": 1.0,
+    "reg_lambda": 5.0,
+    "num_leaves": 15,
+    "n_estimators": 150,
+    "min_child_samples": 10,
+    "max_depth": 20,
+    "learning_rate": 0.2,
+    "colsample_bytree": 0.9,
+    "class_weight": "balanced"
+  },
+  "initial_source_kind": "retuned_checkpoint_models",
+  "initial_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_25/Hyperparameter_Tuning_After_Iteration5/Development_Models_For_Iteration_6.pkl",
+  "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+  "development_feature_file_sha256": "2715abfb3cec4e48681ec5582c6b56f541b78142a80c204d7d677b733a9fb39e",
+  "development_target_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+  "development_target_file_sha256": "e5547e3efaa171bccc93b19a31e8cc4886b707609fa77aed495086d6357842e5",
+  "project_random_state": 42,
+  "selection_rules": {
+    "main_shap_importance_mass_fraction": 0.75,
+    "interaction_partner_fraction": 0.25,
+    "strict_correlation_threshold": 0.99,
+    "correlation_is_rescue_only": true
+  },
+  "strict_correlation_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/4_Feature_Correlation_StrictClusters_Activity_KMeans_development.xlsx",
+  "strict_correlation_workbook_sha256": "846cff96a994501938e0847db954cca062fc6e19df7dd4ae269223157f2c519c",
+  "strict_cluster_sheet": "Members_099",
+  "n_strict_clusters": 48,
+  "n_strict_clustered_features": 196,
+  "validation_split_loaded": false
+}

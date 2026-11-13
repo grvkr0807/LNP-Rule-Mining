@@ -1,0 +1,41 @@
+{
+  "schema_version": 3,
+  "stage": "pareto_option_repeated_cv_evaluation_with_original_hyperparameters",
+  "case_name": "KMeans_Stratified_RF",
+  "pareto_option_id": "Iteration_5_c5a779365873_HP_dc5a418cd169",
+  "representative_iteration": 5,
+  "source_iterations": [
+    5
+  ],
+  "feature_hash": "c5a7793658732966fa6764a031065f8ff7f5092c2c80cc6cfc5f9fc4fe1cdc9d",
+  "n_features": 54,
+  "hyperparameter_source": "exact best_params recorded in the Phase-1 Trained_Models_Iteration_<N>.pkl bundle",
+  "hyperparameter_hash": "dc5a418cd169b6471c06971f7a26edfb7d0d7238819fea542fa07d035d2e146d",
+  "original_hyperparameters": {
+    "n_estimators": 50,
+    "min_samples_split": 10,
+    "min_samples_leaf": 2,
+    "max_features": 0.25,
+    "max_depth": 20
+  },
+  "original_hyperparameter_source_iteration": 5,
+  "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_RF_SHAP_75_25/Iteration_5/Trained_Models_Iteration_5.pkl",
+  "original_hyperparameter_source_file_sha256": "900ea87c14b3048e19fbee42c829ef13b47a9a6b2bbbfee2516ed3a5bbcd50a7",
+  "hyperparameter_tuning_performed": false,
+  "label_name": "KMeans",
+  "cv_strategy": "StratifiedKFold",
+  "model_name": "ClassWeightedRandomForest",
+  "random_state": 42,
+  "n_splits": 5,
+  "n_repeats": 10,
+  "uncertainty_unit": "repeat-level mean Macro-F1; each repeat-level value is the mean of the five fold-level Macro-F1 values",
+  "overall_repeated_cv_mean_f1_macro": 0.7736442166463969,
+  "repeat_mean_f1_macro_sd": 0.0030004473436942417,
+  "overall_repeated_cv_mean_f1_macro_se": 0.0009488247605475855,
+  "overall_repeated_cv_mean_f1_macro_ci95_lower": 0.7714978259181382,
+  "overall_repeated_cv_mean_f1_macro_ci95_upper": 0.7757906073746557,
+  "mean_pooled_oof_macro_f1": 0.7736636468577196,
+  "elapsed_seconds": 12.8145112991333,
+  "save_oof_predictions": false,
+  "validation_split_loaded": false
+}

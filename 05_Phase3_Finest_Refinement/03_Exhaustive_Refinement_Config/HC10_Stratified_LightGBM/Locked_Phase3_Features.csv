@@ -1,0 +1,19 @@
+locked_feature_position,feature_order,feature_name,hyperparameter_matrix_index,feature_index,qc_filtered_feature_index,original_feature_index,class_id,feature_class,display_name,case_name,locked_feature_hash,development_matrix_column_index
+1,0,hl_molratio,379,840,379,379,C11,Formulation composition,Composition,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,379
+2,1,cargo_mRNA,411,872,411,411,C12,Experimental and biological context,Experimental Context,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,411
+3,2,SPS_il,5,5,5,5,C01,"Molecular size, shape, and flexibility",Size and Shape,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,5
+4,3,peg_molratio,381,842,381,381,C11,Formulation composition,Composition,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,381
+5,4,il_to_mrna_massratio,382,843,382,382,C11,Formulation composition,Composition,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,382
+6,5,il_molratio,378,839,378,378,C11,Formulation composition,Composition,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,378
+7,6,SMR_VSA6_il,64,66,64,64,C06,Molar refractivity and polarizability,Molar Refractivity,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,64
+8,7,FractionCSP3_il,99,104,99,99,C01,"Molecular size, shape, and flexibility",Size and Shape,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,99
+9,8,BCUT2D_CHGHI_il,19,20,19,19,C07,Charge and electrostatics,Electrostatics,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,19
+10,9,MaxPartialCharge_il,10,11,10,10,C07,Charge and electrostatics,Electrostatics,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,10
+11,10,BCUT2D_MWHI_il,17,18,17,17,C01,"Molecular size, shape, and flexibility",Size and Shape,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,17
+12,11,BCUT2D_CHGLO_il,20,21,20,20,C07,Charge and electrostatics,Electrostatics,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,20
+13,12,MaxAbsPartialCharge_hl,171,222,171,171,C07,Charge and electrostatics,Electrostatics,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,171
+14,13,SlogP_VSA1_il,67,70,67,67,C05,Lipophilicity,Lipophilicity,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,67
+15,14,fr_unbrch_alkane_il,158,207,158,158,C03,Elemental composition and functional groups,Elements and Functional Groups,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,158
+16,15,MinPartialCharge_hl,170,221,170,170,C07,Charge and electrostatics,Electrostatics,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,170
+17,16,BCUT2D_MWLOW_il,18,19,18,18,C01,"Molecular size, shape, and flexibility",Size and Shape,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,18
+18,17,FpDensityMorgan1_il,14,15,14,14,C10,Composite and fingerprint-derived descriptors,Composite/Fingerprint,HC10_Stratified_LightGBM,3515d749d45d72c8dbc9f10e38a1944377af1426945d0e8d834f1cf175517c43,14

@@ -1,0 +1,180 @@
+{
+  "property_name": "Activity",
+  "label_name": "KMeans",
+  "data_split": "development",
+  "development_data_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+  "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+  "output_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Chemistry_Aware_Split/Fingerprint_Clustering_Analysis/Fingerprint_Clustering_Analysis_Results_Activity_KMeans_development.xlsx",
+  "output_development_assignment_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Chemistry_Aware_Split/Fingerprint_Clustering_Analysis/Development_Fingerprint_Cluster_Assignments.csv",
+  "output_unique_lipid_assignment_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Chemistry_Aware_Split/Fingerprint_Clustering_Analysis/Unique_Lipid_Fingerprint_Cluster_Assignments.csv",
+  "fixed_columns": {
+    "smiles_column": "il_smiles",
+    "formulation_id_column": "formulation_id",
+    "source_column": "source_inferred",
+    "label_column": "kmeans_2bins"
+  },
+  "feature_matrix": {
+    "feature_matrix_key": "RDKit_Descriptors_NG",
+    "n_rows": 10391,
+    "n_features": 420
+  },
+  "fingerprint": {
+    "name": "Morgan_bit_vector",
+    "radius": 2,
+    "n_bits": 2048,
+    "include_chirality": true
+  },
+  "clustering": {
+    "algorithm": "Butina",
+    "similarity_thresholds": [
+      0.6,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "primary_similarity_threshold": 0.7,
+    "distance_cutoff_definition": "1 - similarity_threshold"
+  },
+  "high_similarity_cross_cluster_threshold": 0.8,
+  "primary_cluster_summary": {
+    "similarity_threshold": 0.7,
+    "distance_cutoff": 0.30000000000000004,
+    "n_clusters": 280.0,
+    "n_singleton_clusters": 28.0,
+    "fraction_clusters_singleton": 0.1,
+    "n_unique_lipids_in_singleton_clusters": 28.0,
+    "fraction_unique_lipids_in_singleton_clusters": 0.004515400741815836,
+    "median_unique_lipids_per_cluster": 7.0,
+    "largest_cluster_unique_lipids": 372.0,
+    "largest_cluster_unique_lipid_fraction": 0.05999032414126754,
+    "largest_cluster_formulations": 1082.0,
+    "largest_cluster_formulation_fraction": 0.10412857280338755,
+    "median_formulations_per_cluster": 9.0
+  },
+  "primary_similarity_summary": {
+    "all_pairs": {
+      "n_pairs": 19223100,
+      "mean_tanimoto": 0.2994213195214717,
+      "std_tanimoto": 0.13603064529743736,
+      "min_tanimoto": 0.016129016876220703,
+      "p05_tanimoto": 0.1449275016784668,
+      "p25_tanimoto": 0.2028985619544983,
+      "median_tanimoto": 0.26966291666030884,
+      "p75_tanimoto": 0.3548387289047241,
+      "p95_tanimoto": 0.577464759349823,
+      "max_tanimoto": 1.0
+    },
+    "within_primary_clusters": {
+      "n_pairs": 409666,
+      "mean_tanimoto": 0.73436315797264,
+      "std_tanimoto": 0.11532266053608509,
+      "min_tanimoto": 0.4583333730697632,
+      "p05_tanimoto": 0.5675675868988037,
+      "p25_tanimoto": 0.653333306312561,
+      "median_tanimoto": 0.7162162065505981,
+      "p75_tanimoto": 0.800000011920929,
+      "p95_tanimoto": 1.0,
+      "max_tanimoto": 1.0
+    },
+    "between_primary_clusters": {
+      "n_pairs": 18813434,
+      "mean_tanimoto": 0.2899503806598616,
+      "std_tanimoto": 0.12003612367577646,
+      "min_tanimoto": 0.016129016876220703,
+      "p05_tanimoto": 0.14457833766937256,
+      "p25_tanimoto": 0.2023809552192688,
+      "median_tanimoto": 0.2666666507720947,
+      "p75_tanimoto": 0.34782612323760986,
+      "p95_tanimoto": 0.5348837375640869,
+      "max_tanimoto": 0.9850746393203735
+    }
+  },
+  "primary_similarity_threshold_summary": [
+    {
+      "subset": "all_pairs",
+      "threshold": 0.6,
+      "n_pairs": 19223100,
+      "n_pairs_at_or_above_threshold": 801008,
+      "fraction_pairs_at_or_above_threshold": 0.04166903361060391
+    },
+    {
+      "subset": "all_pairs",
+      "threshold": 0.7,
+      "n_pairs": 19223100,
+      "n_pairs_at_or_above_threshold": 332822,
+      "fraction_pairs_at_or_above_threshold": 0.017313648683094818
+    },
+    {
+      "subset": "all_pairs",
+      "threshold": 0.8,
+      "n_pairs": 19223100,
+      "n_pairs_at_or_above_threshold": 128188,
+      "fraction_pairs_at_or_above_threshold": 0.006668435372026364
+    },
+    {
+      "subset": "all_pairs",
+      "threshold": 0.9,
+      "n_pairs": 19223100,
+      "n_pairs_at_or_above_threshold": 42236,
+      "fraction_pairs_at_or_above_threshold": 0.0021971482227112174
+    },
+    {
+      "subset": "within_primary_clusters",
+      "threshold": 0.6,
+      "n_pairs": 409666,
+      "n_pairs_at_or_above_threshold": 366723,
+      "fraction_pairs_at_or_above_threshold": 0.8951755820595314
+    },
+    {
+      "subset": "within_primary_clusters",
+      "threshold": 0.7,
+      "n_pairs": 409666,
+      "n_pairs_at_or_above_threshold": 237088,
+      "fraction_pairs_at_or_above_threshold": 0.5787348718224115
+    },
+    {
+      "subset": "within_primary_clusters",
+      "threshold": 0.8,
+      "n_pairs": 409666,
+      "n_pairs_at_or_above_threshold": 103002,
+      "fraction_pairs_at_or_above_threshold": 0.251429213066254
+    },
+    {
+      "subset": "within_primary_clusters",
+      "threshold": 0.9,
+      "n_pairs": 409666,
+      "n_pairs_at_or_above_threshold": 39953,
+      "fraction_pairs_at_or_above_threshold": 0.09752578930152857
+    },
+    {
+      "subset": "between_primary_clusters",
+      "threshold": 0.6,
+      "n_pairs": 18813434,
+      "n_pairs_at_or_above_threshold": 434285,
+      "fraction_pairs_at_or_above_threshold": 0.02308377088414587
+    },
+    {
+      "subset": "between_primary_clusters",
+      "threshold": 0.7,
+      "n_pairs": 18813434,
+      "n_pairs_at_or_above_threshold": 95734,
+      "fraction_pairs_at_or_above_threshold": 0.005088597860443766
+    },
+    {
+      "subset": "between_primary_clusters",
+      "threshold": 0.8,
+      "n_pairs": 18813434,
+      "n_pairs_at_or_above_threshold": 25186,
+      "fraction_pairs_at_or_above_threshold": 0.0013387242329071876
+    },
+    {
+      "subset": "between_primary_clusters",
+      "threshold": 0.9,
+      "n_pairs": 18813434,
+      "n_pairs_at_or_above_threshold": 2283,
+      "fraction_pairs_at_or_above_threshold": 0.00012134945698908556
+    }
+  ],
+  "elapsed_seconds": 103.96626377105713,
+  "rdkit_version": "2023.09.1"
+}

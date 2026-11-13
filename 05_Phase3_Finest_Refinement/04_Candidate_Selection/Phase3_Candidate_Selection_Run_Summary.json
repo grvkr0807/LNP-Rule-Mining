@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "analysis": "Phase 3 candidate selection",
+  "stage": "all",
+  "processed_cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "repeated_cv_n_splits": 5,
+  "repeated_cv_n_repeats": 10,
+  "random_state": 42,
+  "model_n_jobs": -1,
+  "selection_rule": "original numerical-best five-fold mean Macro-F1 minus repeated-CV SE_best",
+  "alternative_combinations_repeated_cv_evaluated": false,
+  "hyperparameter_tuning_performed": false,
+  "shap_calculations_performed": false,
+  "validation_split_loaded": false,
+  "models_persisted": false,
+  "completed_utc": "2026-08-11T02:20:28+00:00"
+}

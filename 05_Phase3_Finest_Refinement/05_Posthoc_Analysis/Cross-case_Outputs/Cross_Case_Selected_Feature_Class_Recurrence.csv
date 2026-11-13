@@ -1,0 +1,10 @@
+class_id,class_name,class_full_name,recurrence_count,recurrence_percent,cases,case_labels,n_cases_analyzed
+C05,Lipophilicity,Lipophilicity,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C06,Molar Refractivity,Molar refractivity and polarizability,4,80.0,HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM;KMeans_Stratified_RF,Case 2;Case 3;Case 4;Case 5,5
+C07,Electrostatics,Charge and electrostatics,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C11,Composition,Formulation composition,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C10,Composite/Fingerprint,Composite and fingerprint-derived descriptors,3,60.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 5,5
+C01,Size and Shape,"Molecular size, shape, and flexibility",2,40.0,HC10_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 2;Case 4,5
+C03,Elements and Functional Groups,Elemental composition and functional groups,2,40.0,HC10_Stratified_LightGBM;HC20_Stratified_LightGBM,Case 2;Case 3,5
+C12,Experimental Context,Experimental and biological context,2,40.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM,Case 1;Case 2,5
+C02,Topology,Molecular topology and complexity,1,20.0,KMeans_Stratified_RF,Case 5,5

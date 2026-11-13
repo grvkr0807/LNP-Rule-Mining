@@ -1,0 +1,7 @@
+set_id,set_type,requested_top_n,exists,n_features,selection_rule,reason_if_not_evaluated
+Reference_Uncompressed,reference,,True,41,all finalized Phase 2 features,
+Top_14_Global_SHAP,global_shap_top_n,14.0,True,14,top 14 by global Phase 3 mean_abs_shap,
+Top_15_Global_SHAP,global_shap_top_n,15.0,True,15,top 15 by global Phase 3 mean_abs_shap,
+Top_16_Global_SHAP,global_shap_top_n,16.0,True,16,top 16 by global Phase 3 mean_abs_shap,
+Top_17_Global_SHAP,global_shap_top_n,17.0,True,17,top 17 by global Phase 3 mean_abs_shap,
+Top_18_Global_SHAP,global_shap_top_n,18.0,True,18,top 18 by global Phase 3 mean_abs_shap,

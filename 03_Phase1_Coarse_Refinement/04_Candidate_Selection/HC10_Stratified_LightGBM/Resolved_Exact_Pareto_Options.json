@@ -1,0 +1,175 @@
+{
+  "schema_version": 3,
+  "case_name": "HC10_Stratified_LightGBM",
+  "resolution_unit": "exact feature-name set plus exact original hyperparameter dictionary",
+  "n_resolved_exact_pareto_options": 2,
+  "hyperparameter_tuning_performed": false,
+  "pareto_options": [
+    {
+      "feature_hash": "1dfa51530b51efa6a3f74fa1c9643a4b8d9f2733ed84af3d396d9fe757bd8368",
+      "hyperparameter_hash": "7b12d9cdbb65069522c77821cc424808217a823b2a09786663f71f36330d9558",
+      "original_hyperparameters": {
+        "subsample": 1.0,
+        "reg_lambda": 1.0,
+        "num_leaves": 31,
+        "n_estimators": 200,
+        "min_child_samples": 40,
+        "max_depth": -1,
+        "learning_rate": 0.03,
+        "colsample_bytree": 0.7,
+        "class_weight": "balanced"
+      },
+      "n_features": 53,
+      "source_iterations": [
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25
+      ],
+      "observed_history_points": [
+        {
+          "iteration": 18,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 19,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 20,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 21,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 22,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 23,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 24,
+          "observed_mean_macro_f1": 0.7976802096147269
+        },
+        {
+          "iteration": 25,
+          "observed_mean_macro_f1": 0.7976802096147269
+        }
+      ],
+      "selected_feature_files_by_iteration": {
+        "18": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_18/Selected_Features_After_Iteration_18.csv",
+        "19": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_19/Selected_Features_After_Iteration_19.csv",
+        "20": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_20/Selected_Features_After_Iteration_20.csv",
+        "21": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_21/Selected_Features_After_Iteration_21.csv",
+        "22": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_22/Selected_Features_After_Iteration_22.csv",
+        "23": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_23/Selected_Features_After_Iteration_23.csv",
+        "24": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_24/Selected_Features_After_Iteration_24.csv",
+        "25": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_25/Selected_Features_After_Iteration_25.csv"
+      },
+      "hyperparameter_source_files_by_iteration": {
+        "18": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_18/Trained_Models_Iteration_18.pkl",
+        "19": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_19/Trained_Models_Iteration_19.pkl",
+        "20": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_20/Trained_Models_Iteration_20.pkl",
+        "21": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_21/Trained_Models_Iteration_21.pkl",
+        "22": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_22/Trained_Models_Iteration_22.pkl",
+        "23": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_23/Trained_Models_Iteration_23.pkl",
+        "24": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_24/Trained_Models_Iteration_24.pkl",
+        "25": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_25/Trained_Models_Iteration_25.pkl"
+      },
+      "hyperparameter_source_file_sha256_by_iteration": {
+        "18": "338660a31c83d954136c2750ecd56cc92d35cec996ff0730bc04378615bc6722",
+        "19": "b89f17aad742ca8dd7efdc17f8085e964ad926ce412dd30024affa34723fcfbf",
+        "20": "ec713bbd75400e7a9ee8995c66a91dc6cb558cc6272f144ad6e70ec956c65d5c",
+        "21": "7d59c67472000c1331d2e6a2911169186f7b9a2d495108a243dc6fd570a73d21",
+        "22": "8be89c913c703930cd1c0337f6222e91d4c3c3493cb5c7fc85be3d39e5bd0303",
+        "23": "7e171ce176aeb2990ddaf16ab922691e412bfa205d3ae1e427386b43b971fcc6",
+        "24": "95cbb5d211a8d04bb3ed19d5c46c525f4e1610496dfc2cd1c89e66af9dfe44d3",
+        "25": "798a297ce6492f9acb24c6437e33ce5a950110501b932586373c0e07eb3eb995"
+      },
+      "representative_iteration": 18,
+      "last_observed_iteration": 25,
+      "n_exact_equivalent_iterations": 8,
+      "exact_equivalent_iterations_contiguous": true,
+      "pareto_option_id": "Iteration_18_1dfa51530b51_HP_7b12d9cdbb65",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_18/Selected_Features_After_Iteration_18.csv",
+      "original_hyperparameter_source_iteration": 18,
+      "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_18/Trained_Models_Iteration_18.pkl",
+      "original_hyperparameter_source_file_sha256": "338660a31c83d954136c2750ecd56cc92d35cec996ff0730bc04378615bc6722"
+    },
+    {
+      "feature_hash": "e71660fd4f9ff551fb3cee2a81aeededc9d6953b860d691a89ed3596204ccb5f",
+      "hyperparameter_hash": "1fa5430429608458115a5ec55a9ae1bb3762eb2634b72cec5c22f8157407ff69",
+      "original_hyperparameters": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 50,
+        "min_child_samples": 10,
+        "max_depth": -1,
+        "learning_rate": 0.2,
+        "colsample_bytree": 0.7,
+        "class_weight": "balanced"
+      },
+      "n_features": 58,
+      "source_iterations": [
+        12,
+        13,
+        14,
+        15
+      ],
+      "observed_history_points": [
+        {
+          "iteration": 12,
+          "observed_mean_macro_f1": 0.8050748613839069
+        },
+        {
+          "iteration": 13,
+          "observed_mean_macro_f1": 0.8050748613839069
+        },
+        {
+          "iteration": 14,
+          "observed_mean_macro_f1": 0.8050748613839069
+        },
+        {
+          "iteration": 15,
+          "observed_mean_macro_f1": 0.8050748613839069
+        }
+      ],
+      "selected_feature_files_by_iteration": {
+        "12": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Selected_Features_After_Iteration_12.csv",
+        "13": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_13/Selected_Features_After_Iteration_13.csv",
+        "14": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_14/Selected_Features_After_Iteration_14.csv",
+        "15": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_15/Selected_Features_After_Iteration_15.csv"
+      },
+      "hyperparameter_source_files_by_iteration": {
+        "12": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Trained_Models_Iteration_12.pkl",
+        "13": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_13/Trained_Models_Iteration_13.pkl",
+        "14": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_14/Trained_Models_Iteration_14.pkl",
+        "15": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_15/Trained_Models_Iteration_15.pkl"
+      },
+      "hyperparameter_source_file_sha256_by_iteration": {
+        "12": "61e92b29c3d5b1af8e0245370263eeae8eeb3369cd8a243f596fbb6b4be9f679",
+        "13": "299dcbd31b5a39c3607251cc49f7b6f026c8901c5da8a991eb333d68c56d30ec",
+        "14": "2c98bb20c9ba8c3057eceb2f7f02543cd0a6b91fb9ff09234b1e19bda0f97f06",
+        "15": "c67c344ea6c5576faa6ff97f7ca98670d826bf19694a82481e248bd136c7efc0"
+      },
+      "representative_iteration": 12,
+      "last_observed_iteration": 15,
+      "n_exact_equivalent_iterations": 4,
+      "exact_equivalent_iterations_contiguous": true,
+      "pareto_option_id": "Iteration_12_e71660fd4f9f_HP_1fa543042960",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Selected_Features_After_Iteration_12.csv",
+      "original_hyperparameter_source_iteration": 12,
+      "original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Trained_Models_Iteration_12.pkl",
+      "original_hyperparameter_source_file_sha256": "61e92b29c3d5b1af8e0245370263eeae8eeb3369cd8a243f596fbb6b4be9f679"
+    }
+  ]
+}

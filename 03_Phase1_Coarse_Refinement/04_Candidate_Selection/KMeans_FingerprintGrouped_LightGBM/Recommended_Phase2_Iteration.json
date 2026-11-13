@@ -1,0 +1,58 @@
+{
+  "schema_version": 4,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "selection_rule": "Choose the smallest exact Pareto feature-set option whose overall repeated-CV mean Macro-F1 95% confidence-interval upper bound is greater than or equal to the one-standard-error performance threshold: best-option overall mean minus the best option's standard error. Resolve equal-size ties by higher overall repeated-CV mean Macro-F1, then longer exact recurrence, then earlier representative iteration.",
+  "qualification_statistic": "overall_repeated_cv_mean_f1_macro_ci95_upper",
+  "qualification_operator": ">=",
+  "uncertainty_unit": "standard error of the overall repeated-CV mean, calculated from the repeat-level means; each repeat-level mean averages the five fold-level Macro-F1 values",
+  "best_performing_option_id": "Iteration_18_83f98b217aaa_HP_1fa543042960",
+  "best_performance_iteration": 18,
+  "best_performance_n_features": 54,
+  "best_option_overall_repeated_cv_mean_f1_macro": 0.6529257821563246,
+  "best_option_overall_repeated_cv_mean_f1_macro_se": 0.0021081132898614413,
+  "one_se_performance_threshold_f1_macro": 0.6508176688664631,
+  "upper_ci_one_se_performance_qualified_option_ids": [
+    "Iteration_22_182015ed1e0a_HP_9a0fed0a9829",
+    "Iteration_21_7a4141cfec3f_HP_9a0fed0a9829",
+    "Iteration_18_83f98b217aaa_HP_1fa543042960"
+  ],
+  "one_se_performance_qualified_option_ids": [
+    "Iteration_22_182015ed1e0a_HP_9a0fed0a9829",
+    "Iteration_21_7a4141cfec3f_HP_9a0fed0a9829",
+    "Iteration_18_83f98b217aaa_HP_1fa543042960"
+  ],
+  "recommended_phase2_option_id": "Iteration_22_182015ed1e0a_HP_9a0fed0a9829",
+  "recommended_iteration": 22,
+  "recommended_source_iterations": [
+    22,
+    23,
+    24,
+    25
+  ],
+  "recommended_n_features": 52,
+  "recommended_feature_hash": "182015ed1e0a8af36aa02f4d9f2a38c1514bb536122459daa1ad864eaf17db44",
+  "recommended_hyperparameter_hash": "9a0fed0a98297c291c4b906e6f5b6c3ad3c284cb944e6afa25eb4e073b52761c",
+  "recommended_original_hyperparameter_source_iteration": 22,
+  "recommended_original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Trained_Models_Iteration_22.pkl",
+  "recommended_original_hyperparameters": {
+    "class_weight": "balanced",
+    "colsample_bytree": 0.9,
+    "learning_rate": 0.1,
+    "max_depth": 5,
+    "min_child_samples": 40,
+    "n_estimators": 150,
+    "num_leaves": 31,
+    "reg_lambda": 5.0,
+    "subsample": 1.0
+  },
+  "hyperparameter_tuning_performed_during_selection": false,
+  "final_hyperparameter_tuning_performed_after_selection": false,
+  "recommended_option_overall_repeated_cv_mean_f1_macro": 0.6479043677869082,
+  "recommended_option_overall_repeated_cv_mean_f1_macro_se": 0.0042849516363566795,
+  "recommended_option_overall_repeated_cv_mean_f1_macro_ci95": [
+    0.6382111337507252,
+    0.6575976018230911
+  ],
+  "recommended_selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_FingerprintGrouped_LightGBM_SHAP_75_25/Iteration_22/Selected_Features_After_Iteration_22.csv",
+  "validation_split_loaded": false
+}

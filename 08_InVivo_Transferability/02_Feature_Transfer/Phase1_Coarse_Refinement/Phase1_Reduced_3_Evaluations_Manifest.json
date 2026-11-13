@@ -1,0 +1,152 @@
+{
+  "analysis": "In vivo transfer of finalized in vitro Phase 1 coarse feature sets",
+  "created_local": "2026-08-14T16:08:52",
+  "property_name": "Activity",
+  "data_split_tag": "development",
+  "in_vivo_data_split_performed": false,
+  "development_tag_meaning": "complete retained in vivo dataset",
+  "feature_transfer_rule": "exact feature-name intersection with in vivo QC-filtered features",
+  "union_or_zero_fill_used": false,
+  "labels": [
+    "KMeans",
+    "HighConfidence_KMeans_10",
+    "HighConfidence_KMeans_20"
+  ],
+  "cases": {
+    "KMeans": "KMeans_Stratified_LightGBM",
+    "HighConfidence_KMeans_10": "HC10_Stratified_LightGBM",
+    "HighConfidence_KMeans_20": "HC20_Stratified_LightGBM"
+  },
+  "cv": {
+    "strategy": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "model": "LightGBM",
+  "phase1_recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/Recommended_Phase2_Iterations.json",
+  "phase1_recommendations_sha256": "2aab08735a0029be8c01785e9cff3a4ab7866e0993183a5d80872447105fc343",
+  "baseline_summary_file": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations_Summary.csv",
+  "baseline_summary_sha256": "32d26e8d434e65cf06a5f313ddee12d450484891fd4948c1841338724b8a6874",
+  "baseline_split_assignments_file": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Pre-Refinement/Model_Development_3_Evaluations/Model_Development_3_Evaluations_Split_Assignments.csv",
+  "baseline_split_assignments_sha256": "6fb942f77600224778ac88b3f6bb38755972a3365e300a0cf3b477a2748ceb2a",
+  "baseline_rerun": false,
+  "baseline_fold_identity_verified": true,
+  "feature_transfer_summary": [
+    {
+      "case_name": "KMeans_Stratified_LightGBM",
+      "label_name": "KMeans",
+      "phase1_iteration": 10,
+      "n_phase1_selected_features": 69,
+      "n_transferred_exact_name_features": 67,
+      "n_not_transferred_features": 2,
+      "n_present_pre_qc_removed_by_in_vivo_qc": 0,
+      "n_absent_from_in_vivo_feature_schema": 2,
+      "transferred_feature_hash": "9494810cc90dfa22910a8a8ba34f356592c3097b3c195fdafec361ff92af356a",
+      "phase1_feature_hash": "5b298f21086029f8613357d729526e42f945062ddfc8bdc96802ee8b2d1be53f",
+      "phase1_hyperparameter_hash": "aed66794bae5acc0f8c565b8c000c8b96d1ad0891e144d075a2eed772099a70b"
+    },
+    {
+      "case_name": "HC10_Stratified_LightGBM",
+      "label_name": "HighConfidence_KMeans_10",
+      "phase1_iteration": 12,
+      "n_phase1_selected_features": 58,
+      "n_transferred_exact_name_features": 57,
+      "n_not_transferred_features": 1,
+      "n_present_pre_qc_removed_by_in_vivo_qc": 0,
+      "n_absent_from_in_vivo_feature_schema": 1,
+      "transferred_feature_hash": "bbd26f92704656477f177b3e35b3b0f6ad3ecbae765759fe3532222f8d28ba6c",
+      "phase1_feature_hash": "e71660fd4f9ff551fb3cee2a81aeededc9d6953b860d691a89ed3596204ccb5f",
+      "phase1_hyperparameter_hash": "1fa5430429608458115a5ec55a9ae1bb3762eb2634b72cec5c22f8157407ff69"
+    },
+    {
+      "case_name": "HC20_Stratified_LightGBM",
+      "label_name": "HighConfidence_KMeans_20",
+      "phase1_iteration": 5,
+      "n_phase1_selected_features": 81,
+      "n_transferred_exact_name_features": 79,
+      "n_not_transferred_features": 2,
+      "n_present_pre_qc_removed_by_in_vivo_qc": 0,
+      "n_absent_from_in_vivo_feature_schema": 2,
+      "transferred_feature_hash": "748f80dbff66052d1c6e0efe1eb32992e6366b42666e6b41a61369a6ea093ec0",
+      "phase1_feature_hash": "33f5e20f6f92046c7835cdd810b2b837f85b9751d3aa7fe6074d0e4450172fa5",
+      "phase1_hyperparameter_hash": "b4c7ddb4c5b3107d10d5904fe6a63935735cd28ad96bca3db5b31e03e06cd9d0"
+    }
+  ],
+  "phase1_handoffs": {
+    "KMeans": {
+      "case_name": "KMeans_Stratified_LightGBM",
+      "recommended_iteration": 10,
+      "recommended_n_features": 69,
+      "recommended_feature_hash": "5b298f21086029f8613357d729526e42f945062ddfc8bdc96802ee8b2d1be53f",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_25/Iteration_10/Selected_Features_After_Iteration_10.csv",
+      "selected_feature_source_sha256": "7c173f4670cb5dd91782d04174079a4ba0d7ca729e25cc717c1c88baa13979ce",
+      "recommended_original_hyperparameters": {
+        "class_weight": "balanced",
+        "colsample_bytree": 0.9,
+        "learning_rate": 0.2,
+        "max_depth": 20,
+        "min_child_samples": 10,
+        "n_estimators": 150,
+        "num_leaves": 15,
+        "reg_lambda": 5.0,
+        "subsample": 1.0
+      },
+      "recommended_hyperparameter_hash": "aed66794bae5acc0f8c565b8c000c8b96d1ad0891e144d075a2eed772099a70b",
+      "recommended_original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/KMeans_Stratified_LightGBM_SHAP_75_25/Iteration_10/Trained_Models_Iteration_10.pkl"
+    },
+    "HighConfidence_KMeans_10": {
+      "case_name": "HC10_Stratified_LightGBM",
+      "recommended_iteration": 12,
+      "recommended_n_features": 58,
+      "recommended_feature_hash": "e71660fd4f9ff551fb3cee2a81aeededc9d6953b860d691a89ed3596204ccb5f",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Selected_Features_After_Iteration_12.csv",
+      "selected_feature_source_sha256": "02029d1e1a683fdd7743bb991c85406930c87fb9aa6f41ca04e97e2fc9f8eb11",
+      "recommended_original_hyperparameters": {
+        "class_weight": "balanced",
+        "colsample_bytree": 0.7,
+        "learning_rate": 0.2,
+        "max_depth": -1,
+        "min_child_samples": 10,
+        "n_estimators": 50,
+        "num_leaves": 31,
+        "reg_lambda": 5.0,
+        "subsample": 1.0
+      },
+      "recommended_hyperparameter_hash": "1fa5430429608458115a5ec55a9ae1bb3762eb2634b72cec5c22f8157407ff69",
+      "recommended_original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Trained_Models_Iteration_12.pkl"
+    },
+    "HighConfidence_KMeans_20": {
+      "case_name": "HC20_Stratified_LightGBM",
+      "recommended_iteration": 5,
+      "recommended_n_features": 81,
+      "recommended_feature_hash": "33f5e20f6f92046c7835cdd810b2b837f85b9751d3aa7fe6074d0e4450172fa5",
+      "selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC20_Stratified_LightGBM_SHAP_75_25/Iteration_5/Selected_Features_After_Iteration_5.csv",
+      "selected_feature_source_sha256": "6243925c1adda9ee15c40b2b2a04f103ccd307f79985e6ee637a7a8a0d162442",
+      "recommended_original_hyperparameters": {
+        "class_weight": null,
+        "colsample_bytree": 0.7,
+        "learning_rate": 0.2,
+        "max_depth": 5,
+        "min_child_samples": 20,
+        "n_estimators": 200,
+        "num_leaves": 63,
+        "reg_lambda": 5.0,
+        "subsample": 0.9
+      },
+      "recommended_hyperparameter_hash": "b4c7ddb4c5b3107d10d5904fe6a63935735cd28ad96bca3db5b31e03e06cd9d0",
+      "recommended_original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC20_Stratified_LightGBM_SHAP_75_25/Iteration_5/Trained_Models_Iteration_5.pkl"
+    }
+  },
+  "outputs": {
+    "workbook": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations.xlsx",
+    "summary_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations_Summary.csv",
+    "fold_metrics_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations_Fold_Metrics.csv",
+    "oof_predictions_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations_OOF_Predictions.csv",
+    "split_assignments_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations_Split_Assignments.csv",
+    "feature_compatibility_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations_Feature_Compatibility.csv",
+    "baseline_comparison_csv": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations_Baseline_Comparison.csv",
+    "pickle": "<PROJECT_ROOT>/Codes/ML_Framework/InVivo_Transferability/Feature_Refinement/Phase1_Coarse_Refinement/Phase1_Reduced_3_Evaluations.pkl"
+  },
+  "elapsed_seconds": 10.89687967300415
+}

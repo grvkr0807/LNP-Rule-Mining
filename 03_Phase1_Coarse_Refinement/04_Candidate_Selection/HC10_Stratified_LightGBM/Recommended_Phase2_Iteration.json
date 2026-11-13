@@ -1,0 +1,54 @@
+{
+  "schema_version": 4,
+  "case_name": "HC10_Stratified_LightGBM",
+  "selection_rule": "Choose the smallest exact Pareto feature-set option whose overall repeated-CV mean Macro-F1 95% confidence-interval upper bound is greater than or equal to the one-standard-error performance threshold: best-option overall mean minus the best option's standard error. Resolve equal-size ties by higher overall repeated-CV mean Macro-F1, then longer exact recurrence, then earlier representative iteration.",
+  "qualification_statistic": "overall_repeated_cv_mean_f1_macro_ci95_upper",
+  "qualification_operator": ">=",
+  "uncertainty_unit": "standard error of the overall repeated-CV mean, calculated from the repeat-level means; each repeat-level mean averages the five fold-level Macro-F1 values",
+  "best_performing_option_id": "Iteration_12_e71660fd4f9f_HP_1fa543042960",
+  "best_performance_iteration": 12,
+  "best_performance_n_features": 58,
+  "best_option_overall_repeated_cv_mean_f1_macro": 0.8002810528679966,
+  "best_option_overall_repeated_cv_mean_f1_macro_se": 0.0011939818812916286,
+  "one_se_performance_threshold_f1_macro": 0.799087070986705,
+  "upper_ci_one_se_performance_qualified_option_ids": [
+    "Iteration_12_e71660fd4f9f_HP_1fa543042960"
+  ],
+  "one_se_performance_qualified_option_ids": [
+    "Iteration_12_e71660fd4f9f_HP_1fa543042960"
+  ],
+  "recommended_phase2_option_id": "Iteration_12_e71660fd4f9f_HP_1fa543042960",
+  "recommended_iteration": 12,
+  "recommended_source_iterations": [
+    12,
+    13,
+    14,
+    15
+  ],
+  "recommended_n_features": 58,
+  "recommended_feature_hash": "e71660fd4f9ff551fb3cee2a81aeededc9d6953b860d691a89ed3596204ccb5f",
+  "recommended_hyperparameter_hash": "1fa5430429608458115a5ec55a9ae1bb3762eb2634b72cec5c22f8157407ff69",
+  "recommended_original_hyperparameter_source_iteration": 12,
+  "recommended_original_hyperparameter_source_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Trained_Models_Iteration_12.pkl",
+  "recommended_original_hyperparameters": {
+    "class_weight": "balanced",
+    "colsample_bytree": 0.7,
+    "learning_rate": 0.2,
+    "max_depth": -1,
+    "min_child_samples": 10,
+    "n_estimators": 50,
+    "num_leaves": 31,
+    "reg_lambda": 5.0,
+    "subsample": 1.0
+  },
+  "hyperparameter_tuning_performed_during_selection": false,
+  "final_hyperparameter_tuning_performed_after_selection": false,
+  "recommended_option_overall_repeated_cv_mean_f1_macro": 0.8002810528679966,
+  "recommended_option_overall_repeated_cv_mean_f1_macro_se": 0.0011939818812916286,
+  "recommended_option_overall_repeated_cv_mean_f1_macro_ci95": [
+    0.7975800782030498,
+    0.8029820275329433
+  ],
+  "recommended_selected_feature_source": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/HC10_Stratified_LightGBM_SHAP_75_25/Iteration_12/Selected_Features_After_Iteration_12.csv",
+  "validation_split_loaded": false
+}

@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "case_name": "KMeans_FingerprintGrouped_LightGBM",
+  "selection_rule": "Numerical best by original five-fold mean Macro-F1; only the numerical best was re-evaluated with 10 x 5 repeated CV; T = numerical-best original five-fold mean Macro-F1 - repeated-CV SE_best; all original exhaustive subsets with mean_f1_macro >= T qualified; the final selected representation was the smallest qualifying candidate, with equal-size ties resolved by higher original five-fold mean Macro-F1 and then deterministic combination_id.",
+  "alternative_combinations_repeated_cv_evaluated": false,
+  "numerical_best_combination_id": "Kept_Features_F01_F03_F04_F08_F09_F10_F11_F12",
+  "numerical_best_n_features": 8,
+  "numerical_best_feature_indices": "5;19;25;66;104;207;849;872",
+  "numerical_best_qc_filtered_feature_indices": "5;18;24;64;99;158;388;411",
+  "numerical_best_feature_names": [
+    "SPS_il",
+    "BCUT2D_MWLOW_il",
+    "BCUT2D_MRLOW_il",
+    "SMR_VSA6_il",
+    "FractionCSP3_il",
+    "fr_unbrch_alkane_il",
+    "model_type_RAW264.7",
+    "cargo_mRNA"
+  ],
+  "numerical_best_feature_hash": "91f048989523aa6add0b4803d2ae5805d37c7a5792c35f6e5e4eba5b6585e50d",
+  "numerical_best_original_five_fold_mean_f1_macro": 0.6749879286013027,
+  "numerical_best_repeated_cv_mean_f1_macro": 0.6549371677312082,
+  "numerical_best_repeated_cv_se_f1_macro": 0.004258981326489728,
+  "screening_threshold_f1_macro": 0.670728947274813,
+  "n_total_phase3_combinations": 4095,
+  "n_threshold_qualified_combinations": 16,
+  "minimum_qualifying_n_features": 7,
+  "n_smallest_qualifying_candidates": 1,
+  "recommended_combination_id": "Kept_Features_F01_F03_F04_F06_F07_F08_F09",
+  "recommended_n_features": 7,
+  "recommended_feature_indices": [
+    "5",
+    "19",
+    "25",
+    "44",
+    "63",
+    "66",
+    "104"
+  ],
+  "recommended_qc_filtered_feature_indices": [
+    "5",
+    "18",
+    "24",
+    "43",
+    "61",
+    "64",
+    "99"
+  ],
+  "recommended_feature_names": [
+    "SPS_il",
+    "BCUT2D_MWLOW_il",
+    "BCUT2D_MRLOW_il",
+    "Kappa3_il",
+    "SMR_VSA3_il",
+    "SMR_VSA6_il",
+    "FractionCSP3_il"
+  ],
+  "recommended_feature_hash": "767e0c8a59b41bf4c9ccfd5c728caff3ca3b26db910d804f64632c825ad596b2",
+  "recommended_original_five_fold_mean_f1_macro": 0.6715028228413512,
+  "recommended_original_five_fold_f1_difference_from_numerical_best": -0.0034851057599515345,
+  "recommended_original_five_fold_f1_margin_above_threshold": 0.0007738755665381847,
+  "all_smallest_qualifying_combination_ids": [
+    "Kept_Features_F01_F03_F04_F06_F07_F08_F09"
+  ]
+}

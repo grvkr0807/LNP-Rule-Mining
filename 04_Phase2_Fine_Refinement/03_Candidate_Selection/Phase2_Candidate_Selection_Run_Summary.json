@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "analysis": "Phase 2 candidate selection",
+  "status": "completed",
+  "stage": "all",
+  "started_utc": "2026-08-06T20:19:25+00:00",
+  "completed_utc": "2026-08-06T20:22:12+00:00",
+  "elapsed_seconds": 166.9833505153656,
+  "base_dir": "<PROJECT_ROOT>",
+  "phase2_root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement",
+  "candidate_selection_script": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Phase2_Candidate_Selection.py",
+  "candidate_selection_script_sha256": "e1a87c748efeb20919966f706ab9b2e1683a8d9488325c87cec5bce343b298b4",
+  "recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/Recommended_Phase2_Iterations.json",
+  "recommendations_file_sha256": "2aab08735a0029be8c01785e9cff3a4ab7866e0993183a5d80872447105fc343",
+  "output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs",
+  "selected_cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "skipped_cases": [],
+  "completed_case_records": [
+    {
+      "case_name": "KMeans_Stratified_LightGBM",
+      "elapsed_seconds": 33.05237174034119,
+      "case_output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/KMeans_Stratified_LightGBM"
+    },
+    {
+      "case_name": "HC10_Stratified_LightGBM",
+      "elapsed_seconds": 62.13079595565796,
+      "case_output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/HC10_Stratified_LightGBM"
+    },
+    {
+      "case_name": "HC20_Stratified_LightGBM",
+      "elapsed_seconds": 32.89144253730774,
+      "case_output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/HC20_Stratified_LightGBM"
+    },
+    {
+      "case_name": "KMeans_FingerprintGrouped_LightGBM",
+      "elapsed_seconds": 20.54342031478882,
+      "case_output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/KMeans_FingerprintGrouped_LightGBM"
+    },
+    {
+      "case_name": "KMeans_Stratified_RF",
+      "elapsed_seconds": 18.020909070968628,
+      "case_output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/KMeans_Stratified_RF"
+    }
+  ],
+  "repeated_cv_n_splits": 5,
+  "repeated_cv_n_repeats": 10,
+  "random_state": 42,
+  "model_n_jobs": -1,
+  "selection_threshold_definition": "original numerical-best five-fold mean Macro-F1 minus the reference repeated-CV SE calculated from repeat-level means",
+  "only_numerical_best_repeated_cv_evaluated": true,
+  "validation_split_loaded": false,
+  "hyperparameter_tuning_performed": false,
+  "shap_calculations_performed": false,
+  "global_recommendation_json": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/Recommended_Phase3_Class_Combinations.json",
+  "global_recommendation_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Candidate_Selection/Outputs/Recommended_Phase3_Class_Combinations.csv"
+}

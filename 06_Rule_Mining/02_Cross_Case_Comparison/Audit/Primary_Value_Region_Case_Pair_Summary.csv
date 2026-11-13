@@ -1,0 +1,11 @@
+left_case,right_case,left_case_label,right_case_label,mean_value_region_similarity,n_shared_comparable_features
+KMeans_Stratified_LightGBM,HC10_Stratified_LightGBM,Case 1,Case 2,0.8544638385181884,8
+KMeans_Stratified_LightGBM,HC20_Stratified_LightGBM,Case 1,Case 3,0.7678822248703632,8
+KMeans_Stratified_LightGBM,KMeans_FingerprintGrouped_LightGBM,Case 1,Case 4,,0
+KMeans_Stratified_LightGBM,KMeans_Stratified_RF,Case 1,Case 5,0.8081909494722633,6
+HC10_Stratified_LightGBM,HC20_Stratified_LightGBM,Case 2,Case 3,0.8152600493146037,7
+HC10_Stratified_LightGBM,KMeans_FingerprintGrouped_LightGBM,Case 2,Case 4,0.7499319608710069,3
+HC10_Stratified_LightGBM,KMeans_Stratified_RF,Case 2,Case 5,0.8371112627420714,4
+HC20_Stratified_LightGBM,KMeans_FingerprintGrouped_LightGBM,Case 3,Case 4,0.6932432250719627,2
+HC20_Stratified_LightGBM,KMeans_Stratified_RF,Case 3,Case 5,0.7517399337911932,7
+KMeans_FingerprintGrouped_LightGBM,KMeans_Stratified_RF,Case 4,Case 5,0.6841539433567437,1

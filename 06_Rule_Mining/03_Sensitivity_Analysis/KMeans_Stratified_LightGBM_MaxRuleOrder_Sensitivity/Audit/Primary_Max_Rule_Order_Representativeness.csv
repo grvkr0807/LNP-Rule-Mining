@@ -1,0 +1,5 @@
+max_rule_order,mean_prominence_similarity_to_other_max_rule_orders,n_prominence_pairwise_comparisons,mean_value_region_similarity_to_other_max_rule_orders,n_value_region_pairwise_comparisons
+2,0.7748847358858223,3,0.5148184915727918,3
+3,0.9017444819652797,3,0.7255294193437196,3
+4,0.9023414480756143,3,0.7597082311427448,3
+5,0.9023358891191311,3,0.7489185645306691,3

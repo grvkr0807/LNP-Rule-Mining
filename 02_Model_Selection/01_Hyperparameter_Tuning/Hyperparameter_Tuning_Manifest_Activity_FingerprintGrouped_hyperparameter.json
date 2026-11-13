@@ -1,0 +1,128 @@
+{
+  "property_name": "Activity",
+  "data_split": "hyperparameter",
+  "cv_strategy": "FingerprintClusterGroupedKFold",
+  "labels": [
+    "KMeans",
+    "HighConfidence_KMeans_10",
+    "HighConfidence_KMeans_20"
+  ],
+  "models": [
+    "ClassWeightedRandomForest",
+    "LightGBM"
+  ],
+  "n_tuning_tasks": 6,
+  "primary_scoring": "f1_macro",
+  "scoring_metrics": [
+    "accuracy",
+    "balanced_accuracy",
+    "f1_high_activity",
+    "f1_low_activity",
+    "f1_macro",
+    "f1_weighted",
+    "precision_high_activity",
+    "precision_low_activity",
+    "recall_high_activity",
+    "recall_low_activity",
+    "auroc",
+    "auprc"
+  ],
+  "cv": {
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "fingerprint_grouping": {
+    "assignment_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Fingerprint_Cluster_Assignments.csv",
+    "assignment_sha256": "270069c48abc5045453c2e21a78e41ee8cd0e0d46ce202e99e80e45e27e7e8c7",
+    "group_column": "fingerprint_cluster_id_70",
+    "fingerprint": "Morgan_bit_vector",
+    "radius": 2,
+    "n_bits": 2048,
+    "include_chirality": true,
+    "butina_similarity_threshold": 0.7,
+    "butina_distance_cutoff": 0.30000000000000004,
+    "n_unique_lipids": 2046,
+    "n_clusters": 62
+  },
+  "best_params_all_labels": {
+    "KMeans": {
+      "ClassWeightedRandomForest": {
+        "n_estimators": 150,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": "log2",
+        "max_depth": 10
+      },
+      "LightGBM": {
+        "subsample": 1.0,
+        "reg_lambda": 0.0,
+        "num_leaves": 15,
+        "n_estimators": 50,
+        "min_child_samples": 10,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9,
+        "class_weight": "balanced"
+      }
+    },
+    "HighConfidence_KMeans_10": {
+      "ClassWeightedRandomForest": {
+        "n_estimators": 150,
+        "min_samples_split": 10,
+        "min_samples_leaf": 2,
+        "max_features": "log2",
+        "max_depth": 10
+      },
+      "LightGBM": {
+        "subsample": 0.9,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 100,
+        "min_child_samples": 40,
+        "max_depth": 10,
+        "learning_rate": 0.1,
+        "colsample_bytree": 1.0,
+        "class_weight": "balanced"
+      }
+    },
+    "HighConfidence_KMeans_20": {
+      "ClassWeightedRandomForest": {
+        "n_estimators": 150,
+        "min_samples_split": 2,
+        "min_samples_leaf": 2,
+        "max_features": "log2",
+        "max_depth": 10
+      },
+      "LightGBM": {
+        "subsample": 1.0,
+        "reg_lambda": 5.0,
+        "num_leaves": 31,
+        "n_estimators": 150,
+        "min_child_samples": 40,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "colsample_bytree": 0.9,
+        "class_weight": "balanced"
+      }
+    }
+  },
+  "best_scores_all_labels": {
+    "KMeans": {
+      "ClassWeightedRandomForest": 0.7183669544382371,
+      "LightGBM": 0.7260994054072929
+    },
+    "HighConfidence_KMeans_10": {
+      "ClassWeightedRandomForest": 0.7343369172023229,
+      "LightGBM": 0.7315500265680592
+    },
+    "HighConfidence_KMeans_20": {
+      "ClassWeightedRandomForest": 0.6993188801971276,
+      "LightGBM": 0.7297025243799145
+    }
+  },
+  "combined_summary_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Hyperparameter_Tuning/Hyperparameter_Tuning_Results_Activity_FingerprintGrouped_hyperparameter.xlsx",
+  "elapsed_seconds": 1421.3177738189697,
+  "validation_split_loaded": false,
+  "rdkit_version": "2023.09.1"
+}

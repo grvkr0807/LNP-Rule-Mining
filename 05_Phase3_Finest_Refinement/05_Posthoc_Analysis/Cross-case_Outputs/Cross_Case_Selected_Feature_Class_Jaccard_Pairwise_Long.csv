@@ -1,0 +1,11 @@
+case_i,case_i_label,case_j,case_j_label,n_intersection,n_union,jaccard_similarity,shared_class_ids
+KMeans_Stratified_LightGBM,Case 1,HC10_Stratified_LightGBM,Case 2,5,8,0.625,C05;C07;C10;C11;C12
+KMeans_Stratified_LightGBM,Case 1,HC20_Stratified_LightGBM,Case 3,3,7,0.42857142857142855,C05;C07;C11
+KMeans_Stratified_LightGBM,Case 1,KMeans_FingerprintGrouped_LightGBM,Case 4,0,7,0.0,
+KMeans_Stratified_LightGBM,Case 1,KMeans_Stratified_RF,Case 5,4,7,0.5714285714285714,C05;C07;C10;C11
+HC10_Stratified_LightGBM,Case 2,HC20_Stratified_LightGBM,Case 3,5,8,0.625,C03;C05;C06;C07;C11
+HC10_Stratified_LightGBM,Case 2,KMeans_FingerprintGrouped_LightGBM,Case 4,2,8,0.25,C01;C06
+HC10_Stratified_LightGBM,Case 2,KMeans_Stratified_RF,Case 5,5,9,0.5555555555555556,C05;C06;C07;C10;C11
+HC20_Stratified_LightGBM,Case 3,KMeans_FingerprintGrouped_LightGBM,Case 4,1,6,0.16666666666666666,C06
+HC20_Stratified_LightGBM,Case 3,KMeans_Stratified_RF,Case 5,4,7,0.5714285714285714,C05;C06;C07;C11
+KMeans_FingerprintGrouped_LightGBM,Case 4,KMeans_Stratified_RF,Case 5,1,7,0.14285714285714285,C06

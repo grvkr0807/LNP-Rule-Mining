@@ -1,0 +1,74 @@
+feature_name,reference_member,n_cases_present,fraction_cases_present,KMeans_Stratified_LightGBM,HC10_Stratified_LightGBM,HC20_Stratified_LightGBM,KMeans_FingerprintGrouped_LightGBM,KMeans_Stratified_RF,present_in_all_cases,cases_present
+BCUT2D_CHGHI_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+BCUT2D_CHGLO_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+BCUT2D_LOGPHI_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+BCUT2D_LOGPLOW_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+BCUT2D_MWHI_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+EState_VSA4_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+EState_VSA7_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+FractionCSP3_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+Kappa3_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+MinEStateIndex_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+MolLogP_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+SMR_VSA6_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+SlogP_VSA2_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+VSA_EState1_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+VSA_EState2_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+VSA_EState6_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+VSA_EState7_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+cargo_mRNA,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+hl_molratio,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+il_molratio,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+il_to_mrna_massratio,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+peg_molratio,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+qed_il,True,5,1.0,1,1,1,1,1,True,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+AvgIpc_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+BCUT2D_MRLOW_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+BCUT2D_MWLOW_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+BalabanJ_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+Chi4v_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+EState_VSA3_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+EState_VSA8_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MaxAbsEStateIndex_hl,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MaxPartialCharge_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MinAbsEStateIndex_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MinEStateIndex_hl,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MinPartialCharge_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+SMR_VSA3_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+SPS_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+SlogP_VSA1_il,True,4,0.8,1,1,1,0,1,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_Stratified_RF
+VSA_EState3_il,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+chl_molratio,True,4,0.8,1,1,1,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+FpDensityMorgan1_il,False,4,0.8,0,1,1,1,1,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+VSA_EState7_hl,False,4,0.8,0,1,1,1,1,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM; KMeans_Stratified_RF
+FpDensityMorgan2_il,True,3,0.6,1,1,0,1,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MinAbsPartialCharge_il,True,3,0.6,1,1,1,0,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+PEOE_VSA6_il,True,3,0.6,1,0,1,1,0,False,KMeans_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+VSA_EState4_il,True,3,0.6,1,0,1,1,0,False,KMeans_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+VSA_EState8_il,True,3,0.6,1,1,1,0,0,False,KMeans_Stratified_LightGBM; HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+EState_VSA5_il,False,3,0.6,0,1,1,1,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+fr_unbrch_alkane_il,False,3,0.6,0,1,1,1,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+PEOE_VSA8_il,True,2,0.4,1,0,0,1,0,False,KMeans_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+Chi2n_hl,False,2,0.4,0,1,1,0,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+EState_VSA2_il,False,2,0.4,0,0,1,1,0,False,HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+Kappa2_il,False,2,0.4,0,1,1,0,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+MaxAbsEStateIndex_il,False,2,0.4,0,1,0,1,0,False,HC10_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+MinPartialCharge_hl,False,2,0.4,0,1,1,0,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+PEOE_VSA7_il,False,2,0.4,0,1,1,0,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+TPSA_il,False,2,0.4,0,1,1,0,0,False,HC10_Stratified_LightGBM; HC20_Stratified_LightGBM
+model_type_RAW264.7,False,2,0.4,0,0,1,1,0,False,HC20_Stratified_LightGBM; KMeans_FingerprintGrouped_LightGBM
+FpDensityMorgan1_hl,True,1,0.2,1,0,0,0,0,False,KMeans_Stratified_LightGBM
+BCUT2D_MRHI_il,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+HallKierAlpha_il,False,1,0.2,0,0,0,1,0,False,KMeans_FingerprintGrouped_LightGBM
+MaxAbsPartialCharge_hl,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+MaxPartialCharge_hl,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+MinAbsEStateIndex_hl,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+PEOE_VSA1_hl,False,1,0.2,0,0,0,0,1,False,KMeans_Stratified_RF
+PEOE_VSA1_il,False,1,0.2,0,0,0,1,0,False,KMeans_FingerprintGrouped_LightGBM
+SMR_VSA1_hl,False,1,0.2,0,0,0,0,1,False,KMeans_Stratified_RF
+SlogP_VSA5_il,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+VSA_EState2_hl,False,1,0.2,0,0,0,0,1,False,KMeans_Stratified_RF
+VSA_EState5_hl,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+VSA_EState9_il,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+model_type_HeLa,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM
+nitrogen_count,False,1,0.2,0,0,1,0,0,False,HC20_Stratified_LightGBM

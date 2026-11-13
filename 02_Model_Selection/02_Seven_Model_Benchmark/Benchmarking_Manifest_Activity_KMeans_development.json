@@ -1,0 +1,94 @@
+{
+  "property_name": "Activity",
+  "label_name": "KMeans",
+  "data_split": "development",
+  "feature_matrix_key": "RDKit_Descriptors_NG",
+  "target_column": "kmeans_2bins",
+  "n_rows": 10391,
+  "cv": {
+    "strategy": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "candidate_models": [
+    "BalancedRandomForest",
+    "ClassWeightedRandomForest",
+    "ExtraTrees",
+    "XGBoost",
+    "LightGBM",
+    "CatBoost",
+    "LinearSVM"
+  ],
+  "primary_selection_metric": "f1_macro",
+  "selected_model": "LightGBM",
+  "selected_model_mean_f1_macro": 0.7809871196699111,
+  "selected_model_std_f1_macro": 0.008791620295250106,
+  "best_params_by_model": {
+    "BalancedRandomForest": {
+      "sampling_strategy": "not majority",
+      "replacement": false,
+      "n_estimators": 50,
+      "min_samples_split": 10,
+      "min_samples_leaf": 4,
+      "max_features": 0.25,
+      "max_depth": 20
+    },
+    "ClassWeightedRandomForest": {
+      "n_estimators": 50,
+      "min_samples_split": 10,
+      "min_samples_leaf": 2,
+      "max_features": 0.25,
+      "max_depth": 20
+    },
+    "ExtraTrees": {
+      "n_estimators": 150,
+      "min_samples_split": 5,
+      "min_samples_leaf": 2,
+      "max_features": 0.5,
+      "max_depth": 10
+    },
+    "XGBoost": {
+      "subsample": 0.9,
+      "scale_pos_weight": 1.0,
+      "reg_lambda": 10.0,
+      "n_estimators": 200,
+      "min_child_weight": 3,
+      "max_depth": 3,
+      "learning_rate": 0.2,
+      "gamma": 0.1,
+      "colsample_bytree": 1.0
+    },
+    "LightGBM": {
+      "subsample": 1.0,
+      "reg_lambda": 1.0,
+      "num_leaves": 31,
+      "n_estimators": 100,
+      "min_child_samples": 40,
+      "max_depth": 10,
+      "learning_rate": 0.1,
+      "colsample_bytree": 0.9,
+      "class_weight": "balanced"
+    },
+    "CatBoost": {
+      "random_strength": 1,
+      "learning_rate": 0.1,
+      "l2_leaf_reg": 1,
+      "iterations": 100,
+      "depth": 7,
+      "bagging_temperature": 2,
+      "auto_class_weights": "Balanced"
+    },
+    "LinearSVM": {
+      "linearsvc__C": 10.0
+    }
+  },
+  "outputs": {
+    "workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Model_Benchmarking/Benchmarking_Results_Activity_KMeans_development.xlsx",
+    "summary_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Model_Benchmarking/Benchmarking_Model_Summary_Activity_KMeans_development.csv",
+    "oof_predictions_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Model_Benchmarking/Benchmarking_OOF_Predictions_Activity_KMeans_development.csv",
+    "pickle": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Model_Benchmarking/Benchmarking_Results_Activity_KMeans_development.pkl"
+  },
+  "elapsed_seconds": 437.7688639163971,
+  "validation_split_loaded": false
+}

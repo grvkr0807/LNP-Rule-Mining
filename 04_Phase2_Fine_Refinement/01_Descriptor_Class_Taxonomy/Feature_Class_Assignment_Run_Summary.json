@@ -1,0 +1,72 @@
+{
+  "schema_version": 3,
+  "analysis": "Phase-2 feature-class assignment",
+  "feature_class_mapping_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/Feature_Class_Mapping.xlsx",
+  "feature_class_mapping_sha256": "6069a21c7aacad54d7af6493e2a4bdec6577aefc2b3057879840645534b3afc5",
+  "recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/Recommended_Phase2_Iterations.json",
+  "recommendations_file_sha256": "2aab08735a0029be8c01785e9cff3a4ab7866e0993183a5d80872447105fc343",
+  "processed_cases": [
+    "KMeans_Stratified_LightGBM",
+    "HC10_Stratified_LightGBM",
+    "HC20_Stratified_LightGBM",
+    "KMeans_FingerprintGrouped_LightGBM",
+    "KMeans_Stratified_RF"
+  ],
+  "n_processed_cases": 5,
+  "case_outputs": [
+    {
+      "case_name": "KMeans_Stratified_LightGBM",
+      "recommended_iteration": 10,
+      "n_features": 69,
+      "n_represented_classes": 10,
+      "assignment_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_Stratified_LightGBM/Feature_Class_Assignment.csv",
+      "assignment_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_Stratified_LightGBM/Feature_Class_Assignment.xlsx",
+      "assignment_csv_sha256": "ed906ba7432742356e3e3f755a811675d856f7e7b015a9797d66d486f1501cda",
+      "assignment_workbook_sha256": "1a7a616ac42a10e7e75841c5703119334511db6995e45b908e69d4d923cfc6b9"
+    },
+    {
+      "case_name": "HC10_Stratified_LightGBM",
+      "recommended_iteration": 12,
+      "n_features": 58,
+      "n_represented_classes": 11,
+      "assignment_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/HC10_Stratified_LightGBM/Feature_Class_Assignment.csv",
+      "assignment_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/HC10_Stratified_LightGBM/Feature_Class_Assignment.xlsx",
+      "assignment_csv_sha256": "b1c8b64c6db6856013ca24458248d2709e1a89b7065fee2b5e83a8922043a904",
+      "assignment_workbook_sha256": "c82bce967888609e6a216fbf17101acf8fdb465478d9763342ac781de65ab80e"
+    },
+    {
+      "case_name": "HC20_Stratified_LightGBM",
+      "recommended_iteration": 5,
+      "n_features": 81,
+      "n_represented_classes": 11,
+      "assignment_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/HC20_Stratified_LightGBM/Feature_Class_Assignment.csv",
+      "assignment_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/HC20_Stratified_LightGBM/Feature_Class_Assignment.xlsx",
+      "assignment_csv_sha256": "65d291e8f3c01238634e51186582104144113cec014d53c79e356ed599a79d5e",
+      "assignment_workbook_sha256": "d29f2d7fe5eaa33a906b46602b6c200d546b0106ac439f9ed549af7e05603b68"
+    },
+    {
+      "case_name": "KMeans_FingerprintGrouped_LightGBM",
+      "recommended_iteration": 22,
+      "n_features": 52,
+      "n_represented_classes": 10,
+      "assignment_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_FingerprintGrouped_LightGBM/Feature_Class_Assignment.csv",
+      "assignment_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_FingerprintGrouped_LightGBM/Feature_Class_Assignment.xlsx",
+      "assignment_csv_sha256": "bc85458b2a2591aeb77f062db6a0b76b61797b44c354f2b158cb598950f18045",
+      "assignment_workbook_sha256": "89271f2d0f76faa38d5fbbba1dda272a999d489b64a743aaa3afa9383d40579d"
+    },
+    {
+      "case_name": "KMeans_Stratified_RF",
+      "recommended_iteration": 5,
+      "n_features": 54,
+      "n_represented_classes": 10,
+      "assignment_csv": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_Stratified_RF/Feature_Class_Assignment.csv",
+      "assignment_workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase2_Fine_Refinement/KMeans_Stratified_RF/Feature_Class_Assignment.xlsx",
+      "assignment_csv_sha256": "481c0840f3cd2c38f5ae777a2bf474c89ad5babb4c02ecc796c6984cc06ed1ec",
+      "assignment_workbook_sha256": "21b5302ba3277f26a13db391bacc0253cdeed4dc3b45e6375d8a987518ef403b"
+    }
+  ],
+  "updated_utc": "2026-08-06T18:58:56+00:00",
+  "validation_split_loaded": false,
+  "model_training_performed": false,
+  "shap_calculations_performed": false
+}

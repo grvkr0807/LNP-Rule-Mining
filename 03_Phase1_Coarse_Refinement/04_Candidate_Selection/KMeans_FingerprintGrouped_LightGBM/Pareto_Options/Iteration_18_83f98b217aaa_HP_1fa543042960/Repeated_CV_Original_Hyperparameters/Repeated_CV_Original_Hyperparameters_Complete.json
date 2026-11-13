@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "summary_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/KMeans_FingerprintGrouped_LightGBM/Pareto_Options/Iteration_18_83f98b217aaa_HP_1fa543042960/Repeated_CV_Original_Hyperparameters/Repeated_CV_Original_Hyperparameters_Summary.json",
+  "fold_metrics_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/KMeans_FingerprintGrouped_LightGBM/Pareto_Options/Iteration_18_83f98b217aaa_HP_1fa543042960/Repeated_CV_Original_Hyperparameters/Repeated_CV_Original_Hyperparameters_Fold_Metrics.csv",
+  "repeat_level_metrics_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase1_Coarse_Refinement/Candidate_Selection/Outputs/KMeans_FingerprintGrouped_LightGBM/Pareto_Options/Iteration_18_83f98b217aaa_HP_1fa543042960/Repeated_CV_Original_Hyperparameters/Repeated_CV_Original_Hyperparameters_Repeat_Level_Metrics.csv",
+  "feature_hash": "83f98b217aaa74a293fe0cb32cfdfbf594770305265f2f6b9826767cece04f89",
+  "hyperparameter_hash": "1fa5430429608458115a5ec55a9ae1bb3762eb2634b72cec5c22f8157407ff69",
+  "hyperparameter_tuning_performed": false
+}

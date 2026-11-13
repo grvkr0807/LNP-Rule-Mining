@@ -1,0 +1,65 @@
+case_name,case_label,feature_name,class_id,class_name
+KMeans_Stratified_LightGBM,Case 1,hl_molratio,C11,Composition
+KMeans_Stratified_LightGBM,Case 1,cargo_mRNA,C12,Experimental Context
+KMeans_Stratified_LightGBM,Case 1,MaxPartialCharge_il,C07,Electrostatics
+KMeans_Stratified_LightGBM,Case 1,peg_molratio,C11,Composition
+KMeans_Stratified_LightGBM,Case 1,il_to_mrna_massratio,C11,Composition
+KMeans_Stratified_LightGBM,Case 1,SlogP_VSA2_il,C05,Lipophilicity
+KMeans_Stratified_LightGBM,Case 1,FpDensityMorgan1_hl,C10,Composite/Fingerprint
+KMeans_Stratified_LightGBM,Case 1,BCUT2D_CHGHI_il,C07,Electrostatics
+KMeans_Stratified_LightGBM,Case 1,BCUT2D_CHGLO_il,C07,Electrostatics
+KMeans_Stratified_LightGBM,Case 1,BCUT2D_LOGPLOW_il,C05,Lipophilicity
+KMeans_Stratified_LightGBM,Case 1,qed_il,C10,Composite/Fingerprint
+KMeans_Stratified_LightGBM,Case 1,SlogP_VSA1_il,C05,Lipophilicity
+KMeans_Stratified_LightGBM,Case 1,MinAbsPartialCharge_il,C07,Electrostatics
+KMeans_Stratified_LightGBM,Case 1,FpDensityMorgan1_il,C10,Composite/Fingerprint
+KMeans_Stratified_LightGBM,Case 1,MinPartialCharge_il,C07,Electrostatics
+HC10_Stratified_LightGBM,Case 2,cargo_mRNA,C12,Experimental Context
+HC10_Stratified_LightGBM,Case 2,peg_molratio,C11,Composition
+HC10_Stratified_LightGBM,Case 2,il_to_mrna_massratio,C11,Composition
+HC10_Stratified_LightGBM,Case 2,il_molratio,C11,Composition
+HC10_Stratified_LightGBM,Case 2,SMR_VSA6_il,C06,Molar Refractivity
+HC10_Stratified_LightGBM,Case 2,FractionCSP3_il,C01,Size and Shape
+HC10_Stratified_LightGBM,Case 2,BCUT2D_CHGHI_il,C07,Electrostatics
+HC10_Stratified_LightGBM,Case 2,MaxPartialCharge_il,C07,Electrostatics
+HC10_Stratified_LightGBM,Case 2,BCUT2D_MWHI_il,C01,Size and Shape
+HC10_Stratified_LightGBM,Case 2,BCUT2D_CHGLO_il,C07,Electrostatics
+HC10_Stratified_LightGBM,Case 2,MaxAbsPartialCharge_hl,C07,Electrostatics
+HC10_Stratified_LightGBM,Case 2,SlogP_VSA1_il,C05,Lipophilicity
+HC10_Stratified_LightGBM,Case 2,fr_unbrch_alkane_il,C03,Elements and Functional Groups
+HC10_Stratified_LightGBM,Case 2,BCUT2D_MWLOW_il,C01,Size and Shape
+HC10_Stratified_LightGBM,Case 2,FpDensityMorgan1_il,C10,Composite/Fingerprint
+HC20_Stratified_LightGBM,Case 3,hl_molratio,C11,Composition
+HC20_Stratified_LightGBM,Case 3,il_to_mrna_massratio,C11,Composition
+HC20_Stratified_LightGBM,Case 3,peg_molratio,C11,Composition
+HC20_Stratified_LightGBM,Case 3,BCUT2D_CHGHI_il,C07,Electrostatics
+HC20_Stratified_LightGBM,Case 3,SMR_VSA6_il,C06,Molar Refractivity
+HC20_Stratified_LightGBM,Case 3,MaxPartialCharge_il,C07,Electrostatics
+HC20_Stratified_LightGBM,Case 3,SlogP_VSA2_il,C05,Lipophilicity
+HC20_Stratified_LightGBM,Case 3,BCUT2D_CHGLO_il,C07,Electrostatics
+HC20_Stratified_LightGBM,Case 3,SMR_VSA3_il,C06,Molar Refractivity
+HC20_Stratified_LightGBM,Case 3,PEOE_VSA1_il,C07,Electrostatics
+HC20_Stratified_LightGBM,Case 3,fr_unbrch_alkane_il,C03,Elements and Functional Groups
+HC20_Stratified_LightGBM,Case 3,BCUT2D_LOGPLOW_il,C05,Lipophilicity
+HC20_Stratified_LightGBM,Case 3,BCUT2D_CHGLO_hl,C07,Electrostatics
+HC20_Stratified_LightGBM,Case 3,MolLogP_il,C05,Lipophilicity
+KMeans_FingerprintGrouped_LightGBM,Case 4,SPS_il,C01,Size and Shape
+KMeans_FingerprintGrouped_LightGBM,Case 4,BCUT2D_MWLOW_il,C01,Size and Shape
+KMeans_FingerprintGrouped_LightGBM,Case 4,BCUT2D_MRLOW_il,C06,Molar Refractivity
+KMeans_FingerprintGrouped_LightGBM,Case 4,Kappa3_il,C01,Size and Shape
+KMeans_FingerprintGrouped_LightGBM,Case 4,SMR_VSA3_il,C06,Molar Refractivity
+KMeans_FingerprintGrouped_LightGBM,Case 4,SMR_VSA6_il,C06,Molar Refractivity
+KMeans_FingerprintGrouped_LightGBM,Case 4,FractionCSP3_il,C01,Size and Shape
+KMeans_Stratified_RF,Case 5,hl_molratio,C11,Composition
+KMeans_Stratified_RF,Case 5,il_molratio,C11,Composition
+KMeans_Stratified_RF,Case 5,PEOE_VSA1_hl,C07,Electrostatics
+KMeans_Stratified_RF,Case 5,BCUT2D_CHGLO_il,C07,Electrostatics
+KMeans_Stratified_RF,Case 5,BCUT2D_MRHI_il,C06,Molar Refractivity
+KMeans_Stratified_RF,Case 5,SMR_VSA3_il,C06,Molar Refractivity
+KMeans_Stratified_RF,Case 5,BCUT2D_LOGPLOW_il,C05,Lipophilicity
+KMeans_Stratified_RF,Case 5,PEOE_VSA1_il,C07,Electrostatics
+KMeans_Stratified_RF,Case 5,MinAbsPartialCharge_il,C07,Electrostatics
+KMeans_Stratified_RF,Case 5,peg_molratio,C11,Composition
+KMeans_Stratified_RF,Case 5,qed_il,C10,Composite/Fingerprint
+KMeans_Stratified_RF,Case 5,il_to_mrna_massratio,C11,Composition
+KMeans_Stratified_RF,Case 5,BalabanJ_il,C02,Topology

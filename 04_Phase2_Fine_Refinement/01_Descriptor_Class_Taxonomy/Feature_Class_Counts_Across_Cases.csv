@@ -1,0 +1,13 @@
+feature_class,display_name,KMeans_Stratified_LightGBM,HC10_Stratified_LightGBM,HC20_Stratified_LightGBM,KMeans_FingerprintGrouped_LightGBM,KMeans_Stratified_RF
+"Molecular size, shape, and flexibility",Size and Shape,8,6,7,6,8
+Molecular topology and complexity,Topology,6,4,6,3,1
+Elemental composition and functional groups,Elements and Functional Groups,2,2,3,1,0
+Hydrogen bonding and polar surface,Polarity,0,1,2,0,1
+Lipophilicity,Lipophilicity,6,5,7,4,5
+Molar refractivity and polarizability,Molar Refractivity,4,3,5,3,5
+Charge and electrostatics,Electrostatics,10,10,15,7,6
+Electrotopological state,EState,20,17,24,18,18
+Ring and aromaticity,Rings and Aromaticity,0,0,0,0,0
+Composite and fingerprint-derived descriptors,Composite/Fingerprint,5,3,4,3,3
+Formulation composition,Composition,5,5,5,5,5
+Experimental and biological context,Experimental Context,3,2,3,2,2

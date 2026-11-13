@@ -1,0 +1,11 @@
+check,status,n_mismatch,max_abs_error,details
+development_feature_file_historical_sha256,WARN,0,0.0,Frozen Run_Summary missing feature_file_sha256; current SHA-256=2715abfb3cec4e48681ec5582c6b56f541b78142a80c204d7d677b733a9fb39e
+development_target_file_historical_sha256,WARN,0,0.0,Frozen Run_Summary missing target_file_sha256; current SHA-256=e5547e3efaa171bccc93b19a31e8cc4886b707609fa77aed495086d6357842e5
+development_support_exact_match,PASS,0,0.0,
+development_positives_exact_match,PASS,0,0.0,
+development_precision_match,PASS,0,1.1102230246251565e-16,
+development_lift_match,PASS,0,4.440892098500626e-16,
+validation_support_exact_match,PASS,0,0.0,
+validation_positives_exact_match,PASS,0,0.0,
+validation_precision_match,PASS,0,9.71445146547012e-17,
+validation_lift_match,PASS,0,4.440892098500626e-16,

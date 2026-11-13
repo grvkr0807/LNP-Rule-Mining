@@ -1,0 +1,13 @@
+locked_feature_position,feature_order,feature_name,hyperparameter_matrix_index,feature_index,qc_filtered_feature_index,original_feature_index,class_id,feature_class,display_name,case_name,locked_feature_hash,development_matrix_column_index
+1,0,SPS_il,5,5,5,5,C01,"Molecular size, shape, and flexibility",Size and Shape,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,5
+2,1,BCUT2D_MWHI_il,17,18,17,17,C01,"Molecular size, shape, and flexibility",Size and Shape,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,17
+3,2,BCUT2D_MWLOW_il,18,19,18,18,C01,"Molecular size, shape, and flexibility",Size and Shape,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,18
+4,3,BCUT2D_MRLOW_il,24,25,24,24,C06,Molar refractivity and polarizability,Molar Refractivity,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,24
+5,4,HallKierAlpha_il,40,41,40,40,C01,"Molecular size, shape, and flexibility",Size and Shape,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,40
+6,5,Kappa3_il,43,44,43,43,C01,"Molecular size, shape, and flexibility",Size and Shape,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,43
+7,6,SMR_VSA3_il,61,63,61,61,C06,Molar refractivity and polarizability,Molar Refractivity,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,61
+8,7,SMR_VSA6_il,64,66,64,64,C06,Molar refractivity and polarizability,Molar Refractivity,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,64
+9,8,FractionCSP3_il,99,104,99,99,C01,"Molecular size, shape, and flexibility",Size and Shape,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,99
+10,9,fr_unbrch_alkane_il,158,207,158,158,C03,Elemental composition and functional groups,Elements and Functional Groups,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,158
+11,10,model_type_RAW264.7,388,849,388,388,C12,Experimental and biological context,Experimental Context,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,388
+12,11,cargo_mRNA,411,872,411,411,C12,Experimental and biological context,Experimental Context,KMeans_FingerprintGrouped_LightGBM,88b10700d4987303ce869413fd9f20e29aadfcdca4e2e4631d537fe4ac6c1139,411

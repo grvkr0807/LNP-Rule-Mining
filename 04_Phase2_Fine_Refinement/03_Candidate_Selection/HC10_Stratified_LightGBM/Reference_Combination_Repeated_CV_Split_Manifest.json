@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "case_name": "HC10_Stratified_LightGBM",
+  "cv_strategy": "StratifiedKFold",
+  "master_random_state": 42,
+  "repeat_seeds": [
+    42,
+    1608637542,
+    1273642419,
+    1935803228,
+    787846414,
+    996406378,
+    1201263687,
+    423734972,
+    415968276,
+    670094950
+  ],
+  "n_splits": 5,
+  "n_repeats": 10,
+  "n_development_rows": 9416,
+  "n_unique_repeat_split_signatures": 10,
+  "repeat_split_signatures": [
+    "2ad0d91a7bda2bb9786f830cfd2e2814d1d2dbaa78372082271a79f7071b4ed8",
+    "4a7d1b1e8faf9f4ba236cdc8527314ad1f1a6b34acf694db317486b5e85274fc",
+    "da5d01b0d48ea1d57276f4a8be4d24666336e14be1770fcb84032029e7c38b8b",
+    "5a071cdf0c11991ae9ae0d4bcee9242a1ae35113b88acb7d194d7f893c0723a8",
+    "d777cef282dad5597cbc464ff1688669620bac40c0459eeda0656707bb4d22b8",
+    "9bafcd837122a768b443dd088755d79d4d5868d82d7b1d265dc27bae126a8242",
+    "ef68044abb21df62a4c0bbcc84073d50bb5b32be3228975298c9b6ca61cc94ed",
+    "74e7f7628d2ab0c213d5da18e8dee65f9438e3d3fff8db412417b9d5a55729bd",
+    "288eb0f1a6f733c5da04e7684c5acab82d1b242ba157ea0f42cdae201d64ebe1",
+    "6afaa3a47515cad26008b44aaf36d355fa1301e29b9a99fd7b00af60904b549b"
+  ],
+  "grouped_case": false
+}

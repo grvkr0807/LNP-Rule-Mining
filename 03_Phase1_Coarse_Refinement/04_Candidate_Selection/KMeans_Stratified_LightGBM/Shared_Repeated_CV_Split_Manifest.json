@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "case_name": "KMeans_Stratified_LightGBM",
+  "cv_strategy": "StratifiedKFold",
+  "master_random_state": 42,
+  "repeat_seeds": [
+    42,
+    1608637542,
+    1273642419,
+    1935803228,
+    787846414,
+    996406378,
+    1201263687,
+    423734972,
+    415968276,
+    670094950
+  ],
+  "n_splits": 5,
+  "n_repeats": 10,
+  "n_rows": 10391,
+  "n_unique_split_signatures": 10,
+  "split_signatures": [
+    "eb099676bf1aef850a9e8971537f68005222389cb9d49343abfe5f723eb5d0d9",
+    "aadb7d0692e27f50bb79dfd59a1b1c2dd96f0c5f3aabd27f1b99d5fa38928b2d",
+    "2ca57b6eb38f500e50eb3911043bda8aaedffa4a877d94184ef0cf5de589a796",
+    "a06e689d34eb6eb9649d1217cd5ea004639222cd98aa7b2abe01a0b5ca9ec8dc",
+    "3c47d9bec553122b288fc2bd6919376fd79997829788a53dbd8d9f8611411ff8",
+    "b0dc4e8c89de6095a3dc99c548cde107c7e0545909d99a9bbb3abf9b79e68095",
+    "cbdaefe0faff8ac733902e1dafb7909e08beaafefd090be4e1c2e681476d1496",
+    "00708586efca551c098d720fd64681743d8dc467092e67128823c5e00f3b92cd",
+    "50ca5dd9a19441e50830cbbce76e0dd7cdc3b9fde30377b95f8b6c41fd3fb4c0",
+    "52c5834b86816a53a1b6bcb3b38c4d7d18ff2ffa3963709f6354522ded6162a4"
+  ],
+  "validation_split_loaded": false
+}

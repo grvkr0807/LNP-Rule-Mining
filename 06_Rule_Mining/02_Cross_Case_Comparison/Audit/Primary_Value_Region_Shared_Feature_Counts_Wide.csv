@@ -1,0 +1,6 @@
+case,KMeans_Stratified_LightGBM,HC10_Stratified_LightGBM,HC20_Stratified_LightGBM,KMeans_FingerprintGrouped_LightGBM,KMeans_Stratified_RF
+KMeans_Stratified_LightGBM,14,8,8,0,6
+HC10_Stratified_LightGBM,8,15,7,3,4
+HC20_Stratified_LightGBM,8,7,14,2,7
+KMeans_FingerprintGrouped_LightGBM,0,3,2,7,1
+KMeans_Stratified_RF,6,4,7,1,13

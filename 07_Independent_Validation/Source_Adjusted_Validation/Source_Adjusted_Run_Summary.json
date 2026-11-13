@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_utc": "2026-08-14T03:46:16.807995+00:00",
+  "completed_utc": "2026-08-14T03:46:27.418457+00:00",
+  "elapsed_seconds": 10.610462,
+  "analysis": "source_conditioned_evaluation_of_frozen_rulebook",
+  "rulebook_is_frozen": true,
+  "rules_remined": false,
+  "rule_boundaries_changed": false,
+  "n_frozen_rules": 1025,
+  "n_frozen_rule_features": 14,
+  "development_n_rows": 10391,
+  "validation_n_rows": 2162,
+  "development_n_sources": 15,
+  "validation_n_sources": 5,
+  "development_rule_mask_source": "exact frozen Retained_Rule_Coverage_Masks.pkl.gz aligned by formulation_id",
+  "validation_rule_mask_source": "exact frozen conditions applied to untouched Validation features",
+  "primary_adjusted_metrics": [
+    "source_mix_expected_precision",
+    "source_adjusted_uplift",
+    "source_adjusted_lift"
+  ],
+  "output_directory": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Source_Adjusted_Validation",
+  "frozen_parameters": {
+    "n_bins": 6,
+    "min_support": 50,
+    "min_precision": 0.65,
+    "lambda_order": 0.5,
+    "max_rule_order": 4,
+    "wilson_z": 1.96
+  },
+  "development_source_adjusted": {
+    "n_evaluable_rules": 1025,
+    "median_source_adjusted_lift": 1.307511154660241
+  },
+  "validation_source_adjusted": {
+    "n_evaluable_rules": 421,
+    "n_adjusted_lift_gt_1": 205,
+    "median_source_adjusted_lift": 0.9916666666666667,
+    "fraction_single_source_rules_among_evaluable": 0.8408551068883611
+  },
+  "union_source_adjusted": [
+    {
+      "dataset": "development",
+      "n_rows": 10391,
+      "n_positive": 4387,
+      "pooled_baseline_positive_rate": 0.4221922817823116,
+      "union_support": 7541,
+      "union_positives": 3868,
+      "union_support_fraction": 0.7257241843903378,
+      "union_positive_coverage": 0.8816959197629359,
+      "union_precision": 0.5129293197188701,
+      "union_pooled_lift": 1.2149187511280555,
+      "source_mix_expected_positives": 3537.6462540286316,
+      "source_mix_expected_precision": 0.4691216355958933,
+      "source_adjusted_uplift": 0.04380768412297681,
+      "source_adjusted_lift": 1.0933823571520656,
+      "n_sources": 15,
+      "n_sources_union_conservatively_enriched": 4,
+      "fraction_sources_union_conservatively_enriched": 0.26666666666666666
+    },
+    {
+      "dataset": "validation",
+      "n_rows": 2162,
+      "n_positive": 907,
+      "pooled_baseline_positive_rate": 0.41951896392229415,
+      "union_support": 2152,
+      "union_positives": 907,
+      "union_support_fraction": 0.9953746530989824,
+      "union_positive_coverage": 1.0,
+      "union_precision": 0.42146840148698883,
+      "union_pooled_lift": 1.004646840148699,
+      "source_mix_expected_positives": 905.655462184874,
+      "source_mix_expected_precision": 0.4208436162569117,
+      "source_adjusted_uplift": 0.0006247852300771406,
+      "source_adjusted_lift": 1.0014846018947232,
+      "n_sources": 5,
+      "n_sources_union_conservatively_enriched": 0,
+      "fraction_sources_union_conservatively_enriched": 0.0
+    }
+  ],
+  "inputs": [
+    {
+      "name": "retained_rulebook",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Retained_Rulebook.csv",
+      "sha256": "265167905872e9f85f740897f409416700247bc74ea6855b1d1f8f8ab7cea04b"
+    },
+    {
+      "name": "retained_rule_conditions",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Retained_Rule_Conditions.csv",
+      "sha256": "e129fc5550a6f513eca7d884e95ed8772fc98f037e5bb7f132992fa9ebef86aa"
+    },
+    {
+      "name": "final_run_summary",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Run_Summary.json",
+      "sha256": "44ac44554ce59669836bc69125ce8944d6b30f54cbdfd0062a282181471bff17"
+    },
+    {
+      "name": "retained_rule_coverage_masks",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Final_Rulebook/Retained_Rule_Coverage_Masks.pkl.gz",
+      "sha256": "fddddf2cd811a8f1e00f1ffea6807933d7cd86bc54ea222e98590ce33533c03c"
+    },
+    {
+      "name": "development_feature_file",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+      "sha256": "2715abfb3cec4e48681ec5582c6b56f541b78142a80c204d7d677b733a9fb39e"
+    },
+    {
+      "name": "development_target_file",
+      "path": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+      "sha256": "e5547e3efaa171bccc93b19a31e8cc4886b707609fa77aed495086d6357842e5"
+    },
+    {
+      "name": "validation_feature_file",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_validation.pkl",
+      "sha256": "e58818887e8a8cca5c955377cf985f2c6c2f4f3bd52f732b0601693b1f7842e6"
+    },
+    {
+      "name": "validation_target_file",
+      "path": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_validation.xlsx",
+      "sha256": "c87c9a0de6737d4a31fb72df6127521696dd07c956bc5a49abad328d2416cc2c"
+    },
+    {
+      "name": "existing_pooled_rule_level",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Rule_Level_Validation.csv",
+      "sha256": "cc744b4aa8a6f73761b592bb7089c804194b3ad7780a044b6da6edf3679ebd79"
+    },
+    {
+      "name": "existing_pooled_union",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Rulebook_Union_Metrics.csv",
+      "sha256": "be782053104839a2345c50d650d6e456cccdeb417e7252489c165aefda4f1a5b"
+    },
+    {
+      "name": "rule_mining_sensitivity_core",
+      "path": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Sensitivity_Analysis/Rule_Mining_Sensitivity_Core.py",
+      "sha256": "624f41dcd6040b75885892b2556c12742a79b4ac38dfa58c5c7eed18cd4374a1"
+    }
+  ],
+  "outputs": {
+    "root": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Source_Adjusted_Validation",
+    "workbook": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Source_Adjusted_Validation/Rulebook_Validation_Source_Adjusted.xlsx",
+    "plots": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Source_Adjusted_Validation/Plots",
+    "plot_related_output": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase4_Rule_Mining/Rulebook_Validation/Outputs/Source_Adjusted_Validation/Plot_Related_Output"
+  },
+  "post_write_verification": {
+    "verified_rule_rows_each_dataset": 1025,
+    "verified_validation_rule_by_source_rows": 5125,
+    "verified_development_rule_by_source_rows": 15375,
+    "verified_workbook_sheets": [
+      "Source_Baselines",
+      "Rule_By_Source_Val",
+      "Rule_By_Source_Dev",
+      "Rule_Adjusted_Val",
+      "Rule_Adjusted_Dev",
+      "Dev_vs_Val",
+      "Rank_Summary",
+      "Source_Proxy",
+      "Union_By_Source",
+      "Union_Adjusted",
+      "Integrity"
+    ],
+    "output_sha256": {
+      "Source_Baselines.csv": "bafdb77938371c454ba7486787da66a8d3dd3e6e2aa17baacf3f4931de7c63e0",
+      "Rule_By_Source_Validation.csv": "2ba19356b317dad0cf4aec02a8ee9d2228eb9e41d8d4eaa62d0fe75f9a1a5ced",
+      "Rule_By_Source_Development.csv": "a4aaaf18b350e6a4eb0a69672771fdc937c0f1c677660cca4ad21ad0bf595556",
+      "Rule_Level_Source_Adjusted_Validation.csv": "9efb1316d846d5288d2d59113017f695e6b64cb14c705abd4ce12efed02630a7",
+      "Rule_Level_Source_Adjusted_Development.csv": "f87ea72526d083a0769514919e52fc52c205ae99070dd15e6eee948cfd1d7030",
+      "Rule_Level_Development_vs_Validation_Source_Adjusted.csv": "5e6461c90d95e66910abbc2a5305b474579abaa4943de9e54f3b7d9e25d38bf8",
+      "Source_Adjusted_Summary_by_Rank_Window.csv": "5150f4d2f989910431b8da9bf56ea9655e3f667f5102cecfb6c3e02225b11225",
+      "Validation_Source_Proxy_Diagnostic.csv": "8f74742379f6faa365693b953270add633c18fb83469f7a7255338a18439f2d8",
+      "Rulebook_Union_By_Source.csv": "54ece15625b820b8f3ba3fa8e467317df48629eb0818073d87b26d6f47741d6e",
+      "Rulebook_Union_Source_Adjusted.csv": "de447cb9aca3ce544d08dc427cd73fe5dd42db9873c7c750944dc9d11bb73000",
+      "Integrity_Crosschecks.csv": "6ead7b72eca760a60ab6a01a8b10ad43dd6c93d6144cfe80efc477fac45264d5",
+      "Rulebook_Validation_Source_Adjusted.xlsx": "fa19b767814fc74398a52214f9fe6d94f67a7dccecca86280830d3df0aeaf43b"
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "started_utc": "2026-08-14T04:33:48.715330+00:00",
+  "completed_utc": "2026-08-14T04:33:52.050019+00:00",
+  "elapsed_seconds": 3.334689,
+  "case_name": "KMeans_Stratified_RF",
+  "label_name": "KMeans",
+  "target_column": "kmeans_2bins",
+  "data_split": "development",
+  "validation_partition_loaded": false,
+  "n_rows": 10391,
+  "n_positive": 4387,
+  "baseline_positive_prevalence": 0.4221922817823116,
+  "n_selected_features": 13,
+  "selected_feature_names": [
+    "hl_molratio",
+    "il_molratio",
+    "PEOE_VSA1_hl",
+    "BCUT2D_CHGLO_il",
+    "BCUT2D_MRHI_il",
+    "SMR_VSA3_il",
+    "BCUT2D_LOGPLOW_il",
+    "PEOE_VSA1_il",
+    "MinAbsPartialCharge_il",
+    "peg_molratio",
+    "qed_il",
+    "il_to_mrna_massratio",
+    "BalabanJ_il"
+  ],
+  "selected_feature_hash": "53edb31ed6d065d0f1107cfd6376a87af4fd62fabdaae5000d7ab368c027bed5",
+  "requested_n_bins": 6,
+  "min_support": 50,
+  "min_precision": 0.65,
+  "lambda_order": 0.5,
+  "max_rule_order": 4,
+  "wilson_z": 1.96,
+  "wilson_interpretation": "two-sided 95% Wilson lower endpoint; require p_low >= global prevalence",
+  "lift_used_as_filter": false,
+  "delta_uplift": 0.0,
+  "min_sets_appearing_used": false,
+  "top_n_rulebook_truncation_used": false,
+  "extra_superset_improvement_margin_used": false,
+  "positive_utility_required": true,
+  "ranking_order": [
+    "U_low desc",
+    "EP_low desc",
+    "p_low desc",
+    "support desc",
+    "canonical_rule_key asc"
+  ],
+  "n_eligible_rules_prepruning": 6753,
+  "n_after_exact_coverage_deduplication": 3895,
+  "n_retained_rules": 733,
+  "n_exact_coverage_rules_pruned": 2858,
+  "n_nonimproving_supersets_pruned": 3162,
+  "coverage": {
+    "n_formulations": 10391,
+    "n_positive_formulations": 4387,
+    "n_formulations_covered": 7118,
+    "overall_formulation_coverage": 0.6850158791261669,
+    "n_positive_formulations_covered": 3676,
+    "positive_class_coverage": 0.8379302484613631
+  },
+  "mining_audit": {
+    "n_rows": 10391,
+    "n_positive": 4387,
+    "baseline_positive_prevalence": 0.4221922817823116,
+    "max_rule_order": 4,
+    "min_support": 50,
+    "min_precision": 0.65,
+    "lambda_order": 0.5,
+    "wilson_z": 1.96,
+    "stage_totals": {
+      "enumerated": 533667,
+      "support_pass": 52129,
+      "precision_pass": 6753,
+      "wilson_pass": 6753,
+      "positive_utility_pass": 6753
+    },
+    "stage_by_order": [
+      {
+        "order": 1,
+        "enumerated": 67,
+        "support_pass": 67,
+        "precision_pass": 1,
+        "wilson_pass": 1,
+        "positive_utility_pass": 1
+      },
+      {
+        "order": 2,
+        "enumerated": 2064,
+        "support_pass": 1703,
+        "precision_pass": 102,
+        "wilson_pass": 102,
+        "positive_utility_pass": 102
+      },
+      {
+        "order": 3,
+        "enumerated": 38704,
+        "support_pass": 12869,
+        "precision_pass": 1494,
+        "wilson_pass": 1494,
+        "positive_utility_pass": 1494
+      },
+      {
+        "order": 4,
+        "enumerated": 492832,
+        "support_pass": 37490,
+        "precision_pass": 5156,
+        "wilson_pass": 5156,
+        "positive_utility_pass": 5156
+      }
+    ]
+  },
+  "config_hash": "ea16690a57191dc6d6d5121e20b94e055b1e85c0c886709310db8cbf2bb33087",
+  "inputs": {
+    "development_feature_file": "<PROJECT_ROOT>/Codes/ML_Framework/Pre-Refinement/Featurization/Featurization_pickle_files/3_dataX_dict_QCFiltered_Activity_KMeans_development.pkl",
+    "development_feature_file_sha256": "2715abfb3cec4e48681ec5582c6b56f541b78142a80c204d7d677b733a9fb39e",
+    "development_target_file": "<PROJECT_ROOT>/Data/in_vitro/Name_to_SMILES/Encoded/Remove_Missing_Data/Labeling/Activity/Data_Split/Activity_KMeans_development.xlsx",
+    "development_target_file_sha256": "e5547e3efaa171bccc93b19a31e8cc4886b707609fa77aed495086d6357842e5",
+    "recommendations_file": "<PROJECT_ROOT>/Codes/ML_Framework/Feature_Refinement/Phase3_Finest_Refinement/3_Candidate_Selection/Outputs/Recommended_Final_Feature_Sets.csv",
+    "recommendations_file_sha256": "4c1ac5d073660aee29093b7a0dd435f67cc6413320200a173171afa19a4688ae"
+  }
+}
