@@ -1,0 +1,11 @@
+class_id,class_name,recurrence_count,recurrence_percent,cases,case_labels,n_cases_analyzed
+C03,Elements and Functional Groups,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 1;Case 2;Case 3;Case 4,5
+C05,Lipophilicity,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C06,Molar Refractivity,4,80.0,HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM;KMeans_Stratified_RF,Case 2;Case 3;Case 4;Case 5,5
+C07,Electrostatics,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C10,Composite/Fingerprint,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C11,Composition,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+C12,Experimental Context,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 1;Case 2;Case 3;Case 4,5
+C01,Size and Shape,2,40.0,HC10_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 2;Case 4,5
+C02,Topology,2,40.0,HC10_Stratified_LightGBM;KMeans_Stratified_RF,Case 2;Case 5,5
+C04,Polarity,2,40.0,HC10_Stratified_LightGBM;KMeans_Stratified_RF,Case 2;Case 5,5

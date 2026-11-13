@@ -1,0 +1,6 @@
+case,activity_label,cross_validation,model,primary_purpose
+Case 1,Standard k-means,Stratified,LightGBM,Reference pathway
+Case 2,HC10,Stratified,LightGBM,Label sensitivity
+Case 3,HC20,Stratified,LightGBM,Label sensitivity
+Case 4,Standard k-means,Fingerprint-grouped,LightGBM,Chemistry/CV sensitivity
+Case 5,Standard k-means,Stratified,Class-weighted random forest,Model-family sensitivity

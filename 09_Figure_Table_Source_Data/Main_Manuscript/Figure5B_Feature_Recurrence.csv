@@ -1,0 +1,33 @@
+feature_name,recurrence_count,recurrence_percent,cases,case_labels,n_cases_analyzed
+BCUT2D_CHGLO_il,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+il_to_mrna_massratio,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+peg_molratio,4,80.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 2;Case 3;Case 5,5
+BCUT2D_CHGHI_il,3,60.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM,Case 1;Case 2;Case 3,5
+BCUT2D_LOGPLOW_il,3,60.0,KMeans_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 3;Case 5,5
+MaxPartialCharge_il,3,60.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM;HC20_Stratified_LightGBM,Case 1;Case 2;Case 3,5
+SMR_VSA3_il,3,60.0,HC20_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM;KMeans_Stratified_RF,Case 3;Case 4;Case 5,5
+SMR_VSA6_il,3,60.0,HC10_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 2;Case 3;Case 4,5
+hl_molratio,3,60.0,KMeans_Stratified_LightGBM;HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 3;Case 5,5
+BCUT2D_MWLOW_il,2,40.0,HC10_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 2;Case 4,5
+FpDensityMorgan1_il,2,40.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM,Case 1;Case 2,5
+FractionCSP3_il,2,40.0,HC10_Stratified_LightGBM;KMeans_FingerprintGrouped_LightGBM,Case 2;Case 4,5
+MinAbsPartialCharge_il,2,40.0,KMeans_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 5,5
+PEOE_VSA1_il,2,40.0,HC20_Stratified_LightGBM;KMeans_Stratified_RF,Case 3;Case 5,5
+SlogP_VSA1_il,2,40.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM,Case 1;Case 2,5
+SlogP_VSA2_il,2,40.0,KMeans_Stratified_LightGBM;HC20_Stratified_LightGBM,Case 1;Case 3,5
+cargo_mRNA,2,40.0,KMeans_Stratified_LightGBM;HC10_Stratified_LightGBM,Case 1;Case 2,5
+fr_unbrch_alkane_il,2,40.0,HC10_Stratified_LightGBM;HC20_Stratified_LightGBM,Case 2;Case 3,5
+il_molratio,2,40.0,HC10_Stratified_LightGBM;KMeans_Stratified_RF,Case 2;Case 5,5
+qed_il,2,40.0,KMeans_Stratified_LightGBM;KMeans_Stratified_RF,Case 1;Case 5,5
+BCUT2D_CHGLO_hl,1,20.0,HC20_Stratified_LightGBM,Case 3,5
+BCUT2D_MRHI_il,1,20.0,KMeans_Stratified_RF,Case 5,5
+BCUT2D_MRLOW_il,1,20.0,KMeans_FingerprintGrouped_LightGBM,Case 4,5
+BCUT2D_MWHI_il,1,20.0,HC10_Stratified_LightGBM,Case 2,5
+BalabanJ_il,1,20.0,KMeans_Stratified_RF,Case 5,5
+FpDensityMorgan1_hl,1,20.0,KMeans_Stratified_LightGBM,Case 1,5
+Kappa3_il,1,20.0,KMeans_FingerprintGrouped_LightGBM,Case 4,5
+MaxAbsPartialCharge_hl,1,20.0,HC10_Stratified_LightGBM,Case 2,5
+MinPartialCharge_il,1,20.0,KMeans_Stratified_LightGBM,Case 1,5
+MolLogP_il,1,20.0,HC20_Stratified_LightGBM,Case 3,5
+PEOE_VSA1_hl,1,20.0,KMeans_Stratified_RF,Case 5,5
+SPS_il,1,20.0,KMeans_FingerprintGrouped_LightGBM,Case 4,5

@@ -1,0 +1,20 @@
+manuscript_item,file,description
+Table 1,Table1_Modeling_Cases.csv,Five modeling cases
+Figure 1A,Figure1A_Feature_Count_Trajectory.csv,Phase 1 retained-feature trajectories
+Figure 1B,Figure1B_MacroF1_Trajectory.csv,Phase 1 Macro-F1 trajectories with fold SD
+Figure 2A,Figure2A_Feature_Membership.csv,Iteration-25 feature membership
+Figure 2B,Figure2B_Core_Retention.csv,Iteration-25 symmetric core retention
+Figure 3A,Figure3A_Phase2_Performance_Complexity_MacroF1.csv,Phase 2 Macro-F1 vs descriptor-class count
+Figure 3B,Figure3B_Class_Recurrence.csv,Selected Phase 2 class recurrence
+Figure 4A,Figure4A_Core_Retention.csv,Selected Phase 2 core retention
+Figure 4B,Figure4B_Jaccard.csv,Selected Phase 2 Jaccard similarity
+Figure 5A,Figure5A_Phase3_Performance_Complexity_MacroF1.csv,Phase 3 Macro-F1 vs feature count
+Figure 5B,Figure5B_Feature_Recurrence.csv,Final Phase 3 exact-feature recurrence
+Figure 6A,Figure6A_Core_Retention.csv,Final Phase 3 exact-feature core retention
+Figure 6B,Figure6B_Jaccard.csv,Final Phase 3 exact-feature Jaccard similarity
+Figure 7A,Figure7A_Feature_Prominence.csv,Primary rulebook normalized feature prominence
+Figure 7B,Figure7B_Favorable_Value_Regions.csv,Primary rulebook favorable value-region profiles
+Table 2,Table2_Top10_Primary_Rules.csv,Ten highest-ranked primary rules
+Table 3,Table3_InVivo_Baseline_Performance.csv,Unrestricted in vivo baseline performance
+Figure 8,Figure8_InVivo_Feature_Transfer_MacroF1.csv,In vivo feature-transfer Macro-F1
+Table 4,Table4_InVivo_Rule_Transfer_by_Rank.csv,In vivo source-adjusted rule transfer by frozen rank window
