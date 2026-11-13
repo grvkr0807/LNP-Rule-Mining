@@ -1,0 +1,14 @@
+published_component,analysis_stage,package_location,pseudocode
+Curated dataset,Data preparation,01_Data/01_Curated_Snapshots/Cleaned_Data_17116.csv,10_Pseudocode/P01_Data_Preparation_and_Labeling.md
+Standard/HC labels,Activity labeling,01_Data/02_InVitro_Labels/,10_Pseudocode/P01_Data_Preparation_and_Labeling.md
+Source-disjoint partitions,Data splitting,01_Data/03_InVitro_Partitions/,10_Pseudocode/P01_Data_Preparation_and_Labeling.md
+881 -> 420 feature QC,Featurization/QC,01_Data/05_Feature_Matrices_InVitro/,10_Pseudocode/P02_Featurization_and_QC.md
+Chemistry-aware split,Chemistry grouping,01_Data/07_Chemistry_Grouping/,10_Pseudocode/P03_Correlation_and_Chemistry_Grouping.md
+Seven-model benchmark,Model selection,02_Model_Selection/02_Seven_Model_Benchmark/,10_Pseudocode/P04_Model_Tuning_and_Benchmarking.md
+12-branch robustness,Model selection,02_Model_Selection/03_Twelve_Branch_Robustness/,10_Pseudocode/P04_Model_Tuning_and_Benchmarking.md
+Figure 1 / Figure 2,Phase 1,03_Phase1_Coarse_Refinement/; 09_Figure_Table_Source_Data/Main_Manuscript/,10_Pseudocode/P05_Phase1_Coarse_Refinement.md
+Figure 3 / Figure 4,Phase 2,04_Phase2_Fine_Refinement/; 09_Figure_Table_Source_Data/Main_Manuscript/,10_Pseudocode/P06_Phase2_Class_Refinement.md
+Figure 5 / Figure 6,Phase 3,05_Phase3_Finest_Refinement/; 09_Figure_Table_Source_Data/Main_Manuscript/,10_Pseudocode/P07_Phase3_Finest_Refinement.md
+Figure 7 / Table 2,Rule mining,06_Rule_Mining/01_Final_Rulebooks/; 09_Figure_Table_Source_Data/Main_Manuscript/,10_Pseudocode/P08_Rule_Mining_and_Sensitivity.md
+Independent validation,Rule validation,07_Independent_Validation/,10_Pseudocode/P09_Independent_Validation.md
+Table 3 / Figure 8 / Table 4,In vivo transferability,08_InVivo_Transferability/; 09_Figure_Table_Source_Data/Main_Manuscript/,10_Pseudocode/P10_InVivo_Transferability.md
